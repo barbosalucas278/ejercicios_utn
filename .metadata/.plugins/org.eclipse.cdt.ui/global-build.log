@@ -1,14 +1,809 @@
-20:01:22 **** Incremental Build of configuration Debug for project Clase5ejerciciobug ****
+00:57:00 **** Incremental Build of configuration Debug for project clase6Ejercicio ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\new.o" "..\\src\\new.c" 
-gcc -o Clase5ejerciciobug.exe "src\\Clase5ejerciciobug.o" "src\\new.o" 
-20:14:04 **** Incremental Build of configuration Debug for project Clase5ejerciciobug ****
+..\src\new.c: In function 'damePromedioArr':
+..\src\new.c:21:1: warning: control reaches end of non-void function [-Wreturn-type]
+   21 | }
+      | ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\clase6Ejercicio.o" "..\\src\\clase6Ejercicio.c" 
+..\src\clase6Ejercicio.c: In function 'main':
+..\src\clase6Ejercicio.c:27:6: warning: unused variable 'minimo' [-Wunused-variable]
+   27 |  int minimo;
+      |      ^~~~~~
+..\src\clase6Ejercicio.c:26:6: warning: unused variable 'maximo' [-Wunused-variable]
+   26 |  int maximo;
+      |      ^~~~~~
+..\src\clase6Ejercicio.c:25:6: warning: unused variable 'promedio' [-Wunused-variable]
+   25 |  int promedio;
+      |      ^~~~~~~~
+..\src\clase6Ejercicio.c:21:6: warning: variable 'arrayN' set but not used [-Wunused-but-set-variable]
+   21 |  int arrayN[CANT_NUMEROS];
+      |      ^~~~~~
+gcc -o clase6Ejercicio.exe "src\\clase6Ejercicio.o" "src\\new.o" 
+01:21:27 **** Incremental Build of configuration Debug for project FUNCIONES ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\new.o" "..\\src\\new.c" 
-gcc -o Clase5ejerciciobug.exe "src\\Clase5ejerciciobug.o" "src\\new.o" 
-Info: Nothing to build for Clase5ejerciciobug
-20:15:44 **** Incremental Build of configuration Debug for project Clase5ejerciciobug ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FUNCIONES.o" "..\\src\\FUNCIONES.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'getFloat':
+..\src\utn.c:214:3: error: too many arguments to function 'gets'
+  214 |   gets(buffer,MAX_ARRAY_CHAR,stdin);
+      |   ^~~~
+In file included from ..\src\utn.c:8:
+c:\mingw\include\stdio.h:709:41: note: declared here
+  709 | _CRTIMP __cdecl __MINGW_NOTHROW  char * gets (char *);
+      |                                         ^~~~
+01:21:51 **** Incremental Build of configuration Debug for project FUNCIONES ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\new.o" "..\\src\\new.c" 
-gcc -o Clase5ejerciciobug.exe "src\\Clase5ejerciciobug.o" "src\\new.o" 
-Info: Nothing to build for Clase5ejerciciobug
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+01:22:03 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+10:36:42 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'getChar':
+..\src\utn.c:278:11: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  278 |  printf("%s",mensaje);
+      |          ~^  ~~~~~~~
+      |           |  |
+      |           |  int
+      |           char *
+      |          %d
+..\src\utn.c:279:11: warning: too many arguments for format [-Wformat-extra-args]
+  279 |  if(scanf("c",&bufferChar))
+      |           ^~~
+..\src\utn.c:283:4: error: break statement not within loop or switch
+  283 |    break;
+      |    ^~~~~
+..\src\utn.c:285:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  285 |   printf("%s",mensajeError);
+      |           ~^  ~~~~~~~~~~~~
+      |            |  |
+      |            |  int
+      |            char *
+      |           %d
+..\src\utn.c:290:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  290 |   printf("%s",mensajeError);
+      |           ~^  ~~~~~~~~~~~~
+      |            |  |
+      |            |  int
+      |            char *
+      |           %d
+10:37:00 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'getChar':
+..\src\utn.c:278:11: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  278 |  printf("%s",mensaje);
+      |          ~^  ~~~~~~~
+      |           |  |
+      |           |  int
+      |           char *
+      |          %d
+..\src\utn.c:279:11: warning: too many arguments for format [-Wformat-extra-args]
+  279 |  if(scanf("c",&bufferChar))
+      |           ^~~
+..\src\utn.c:283:4: error: break statement not within loop or switch
+  283 |    break;
+      |    ^~~~~
+..\src\utn.c:285:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  285 |   printf("%s",mensajeError);
+      |           ~^  ~~~~~~~~~~~~
+      |            |  |
+      |            |  int
+      |            char *
+      |           %d
+..\src\utn.c:290:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  290 |   printf("%s",mensajeError);
+      |           ~^  ~~~~~~~~~~~~
+      |            |  |
+      |            |  int
+      |            char *
+      |           %d
+10:37:14 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FUNCIONES.o" "..\\src\\FUNCIONES.c" 
+..\src\FUNCIONES.c: In function 'main':
+..\src\FUNCIONES.c:30:21: warning: passing argument 2 of 'getChar' makes integer from pointer without a cast [-Wint-conversion]
+   30 |  getChar(&character,"Ingrese un caracter","ERROR, no es un caracter",'F','z',2);
+      |                     ^~~~~~~~~~~~~~~~~~~~~
+      |                     |
+      |                     char *
+In file included from ..\src\FUNCIONES.c:14:
+..\src\utn.h:28:37: note: expected 'char' but argument is of type 'char *'
+   28 | int getChar (char* pResutlado, char mensaje, char mensajeError, char min, char max, int reintentos);
+      |                                ~~~~~^~~~~~~
+..\src\FUNCIONES.c:30:43: warning: passing argument 3 of 'getChar' makes integer from pointer without a cast [-Wint-conversion]
+   30 |  getChar(&character,"Ingrese un caracter","ERROR, no es un caracter",'F','z',2);
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ..\src\FUNCIONES.c:14:
+..\src\utn.h:28:51: note: expected 'char' but argument is of type 'char *'
+   28 | int getChar (char* pResutlado, char mensaje, char mensajeError, char min, char max, int reintentos);
+      |                                              ~~~~~^~~~~~~~~~~~
+..\src\FUNCIONES.c:19:8: warning: unused variable 'numberfloat' [-Wunused-variable]
+   19 |  float numberfloat;
+      |        ^~~~~~~~~~~
+..\src\FUNCIONES.c:18:6: warning: unused variable 'number' [-Wunused-variable]
+   18 |  int number;
+      |      ^~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c:274:5: error: conflicting types for 'getChar'
+  274 | int getChar (char* pResultado, char* mensaje, char* mensajeError, char min, char max, int reintentos)
+      |     ^~~~~~~
+In file included from ..\src\utn.c:10:
+..\src\utn.h:28:5: note: previous declaration of 'getChar' was here
+   28 | int getChar (char* pResutlado, char mensaje, char mensajeError, char min, char max, int reintentos);
+      |     ^~~~~~~
+..\src\utn.c: In function 'getChar':
+..\src\utn.c:279:11: warning: too many arguments for format [-Wformat-extra-args]
+  279 |  if(scanf("c",&bufferChar))
+      |           ^~~
+..\src\utn.c:283:4: error: break statement not within loop or switch
+  283 |    break;
+      |    ^~~~~
+10:37:36 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c:274:5: error: conflicting types for 'getChar'
+  274 | int getChar (char* pResultado, char* mensaje, char* mensajeError, char min, char max, int reintentos)
+      |     ^~~~~~~
+In file included from ..\src\utn.c:10:
+..\src\utn.h:28:5: note: previous declaration of 'getChar' was here
+   28 | int getChar (char* pResutlado, char mensaje, char mensajeError, char min, char max, int reintentos);
+      |     ^~~~~~~
+..\src\utn.c: In function 'getChar':
+..\src\utn.c:279:11: warning: too many arguments for format [-Wformat-extra-args]
+  279 |  if(scanf("c",&bufferChar))
+      |           ^~~
+..\src\utn.c:283:4: error: break statement not within loop or switch
+  283 |    break;
+      |    ^~~~~
+10:37:58 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c:274:5: error: conflicting types for 'getChar'
+  274 | int getChar (char* pResultado, char* mensaje, char* mensajeError, char min, char max, int reintentos)
+      |     ^~~~~~~
+In file included from ..\src\utn.c:10:
+..\src\utn.h:28:5: note: previous declaration of 'getChar' was here
+   28 | int getChar (char* pResutlado, char mensaje, char mensajeError, char min, char max, int reintentos);
+      |     ^~~~~~~
+..\src\utn.c: In function 'getChar':
+..\src\utn.c:283:4: error: break statement not within loop or switch
+  283 |    break;
+      |    ^~~~~
+10:38:09 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'getChar':
+..\src\utn.c:283:4: error: break statement not within loop or switch
+  283 |    break;
+      |    ^~~~~
+10:39:09 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FUNCIONES.o" "..\\src\\FUNCIONES.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+10:39:35 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FUNCIONES.o" "..\\src\\FUNCIONES.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+10:40:00 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FUNCIONES.o" "..\\src\\FUNCIONES.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+10:41:08 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'getChar':
+..\src\utn.c:281:6: error: too many arguments to function 'gets'
+  281 |   if(gets("%c",&bufferChar))
+      |      ^~~~
+In file included from ..\src\utn.c:8:
+c:\mingw\include\stdio.h:709:41: note: declared here
+  709 | _CRTIMP __cdecl __MINGW_NOTHROW  char * gets (char *);
+      |                                         ^~~~
+10:41:35 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+10:42:51 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+10:45:29 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+10:46:07 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+16:06:47 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FUNCIONES.o" "..\\src\\FUNCIONES.c" 
+..\src\FUNCIONES.c: In function 'main':
+..\src\FUNCIONES.c:20:7: warning: unused variable 'character' [-Wunused-variable]
+   20 |  char character;
+      |       ^~~~~~~~~
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+16:06:54 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FUNCIONES.o" "..\\src\\FUNCIONES.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+16:09:13 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+16:10:22 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+16:10:51 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+16:12:18 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FUNCIONES.o" "..\\src\\FUNCIONES.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+16:12:29 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FUNCIONES.o" "..\\src\\FUNCIONES.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+16:13:10 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+16:18:33 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+16:20:46 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+16:22:26 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FUNCIONES.o" "..\\src\\FUNCIONES.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+16:25:51 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'getNumber':
+..\src\utn.c:130:9: error: expected '=', ',', ';', 'asm' or '__attribute__' before '-' token
+  130 |  int ret-1;
+      |         ^
+..\src\utn.c:130:9: warning: statement with no effect [-Wunused-value]
+..\src\utn.c:148:4: error: 'ret' undeclared (first use in this function)
+  148 |    ret = 1;
+      |    ^~~
+..\src\utn.c:148:4: note: each undeclared identifier is reported only once for each function it appears in
+..\src\utn.c:153:1: warning: control reaches end of non-void function [-Wreturn-type]
+  153 | }
+      | ^
+16:26:05 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+16:33:30 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+16:33:42 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+00:28:34 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'getString':
+..\src\utn.c:297:4: warning: implicit declaration of function 'fgest'; did you mean 'fgets'? [-Wimplicit-function-declaration]
+  297 |    fgest(buffer,MAX_ARRAY_CHAR,stdin);
+      |    ^~~~~
+      |    fgets
+..\src\utn.c:298:44: warning: comparison between pointer and integer
+  298 |    if(strlen(buffer)>=min || strlen(buffer <=max))
+      |                                            ^~
+..\src\utn.c:298:44: warning: passing argument 1 of 'strlen' makes pointer from integer without a cast [-Wint-conversion]
+  298 |    if(strlen(buffer)>=min || strlen(buffer <=max))
+      |                                     ~~~~~~~^~~~~
+      |                                            |
+      |                                            int
+In file included from ..\src\utn.c:9:
+c:\mingw\include\string.h:83:49: note: expected 'const char *' but argument is of type 'int'
+   83 | _CRTIMP __cdecl __MINGW_NOTHROW  size_t strlen (const char *) __MINGW_ATTRIB_PURE;
+      |                                                 ^~~~~~~~~~~~
+..\src\utn.c:298:30: warning: null argument where non-null required (argument 1) [-Wnonnull]
+  298 |    if(strlen(buffer)>=min || strlen(buffer <=max))
+      |                              ^~~~~~
+..\src\utn.c:300:12: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+  300 |     strcpy(*cadena,buffer);
+      |            ^~~~~~~
+      |            |
+      |            char
+In file included from ..\src\utn.c:9:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char'
+   79 | _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+      |                                        ^~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FUNCIONES.o" "..\\src\\FUNCIONES.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\utn.o: in function `getString':
+C:\Users\pocho\eclipse-workspace\ejercicios_utn\FUNCIONES\Debug/../src/utn.c:297: undefined reference to `fgest'
+collect2.exe: error: ld returned 1 exit status
+00:28:49 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'getString':
+..\src\utn.c:298:44: warning: comparison between pointer and integer
+  298 |    if(strlen(buffer)>=min || strlen(buffer <=max))
+      |                                            ^~
+..\src\utn.c:298:44: warning: passing argument 1 of 'strlen' makes pointer from integer without a cast [-Wint-conversion]
+  298 |    if(strlen(buffer)>=min || strlen(buffer <=max))
+      |                                     ~~~~~~~^~~~~
+      |                                            |
+      |                                            int
+In file included from ..\src\utn.c:9:
+c:\mingw\include\string.h:83:49: note: expected 'const char *' but argument is of type 'int'
+   83 | _CRTIMP __cdecl __MINGW_NOTHROW  size_t strlen (const char *) __MINGW_ATTRIB_PURE;
+      |                                                 ^~~~~~~~~~~~
+..\src\utn.c:298:30: warning: null argument where non-null required (argument 1) [-Wnonnull]
+  298 |    if(strlen(buffer)>=min || strlen(buffer <=max))
+      |                              ^~~~~~
+..\src\utn.c:300:12: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+  300 |     strcpy(*cadena,buffer);
+      |            ^~~~~~~
+      |            |
+      |            char
+In file included from ..\src\utn.c:9:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char'
+   79 | _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+      |                                        ^~~~~~
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+00:29:29 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'getString':
+..\src\utn.c:298:44: warning: comparison between pointer and integer
+  298 |    if(strlen(buffer)>=min || strlen(buffer <=max))
+      |                                            ^~
+..\src\utn.c:298:44: warning: passing argument 1 of 'strlen' makes pointer from integer without a cast [-Wint-conversion]
+  298 |    if(strlen(buffer)>=min || strlen(buffer <=max))
+      |                                     ~~~~~~~^~~~~
+      |                                            |
+      |                                            int
+In file included from ..\src\utn.c:9:
+c:\mingw\include\string.h:83:49: note: expected 'const char *' but argument is of type 'int'
+   83 | _CRTIMP __cdecl __MINGW_NOTHROW  size_t strlen (const char *) __MINGW_ATTRIB_PURE;
+      |                                                 ^~~~~~~~~~~~
+..\src\utn.c:298:30: warning: null argument where non-null required (argument 1) [-Wnonnull]
+  298 |    if(strlen(buffer)>=min || strlen(buffer <=max))
+      |                              ^~~~~~
+..\src\utn.c:300:5: error: too few arguments to function 'strcpy'
+  300 |     strcpy(cadena = buffer);
+      |     ^~~~~~
+In file included from ..\src\utn.c:9:
+c:\mingw\include\string.h:79:40: note: declared here
+   79 | _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+      |                                        ^~~~~~
+00:31:04 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FUNCIONES.o" "..\\src\\FUNCIONES.c" 
+..\src\FUNCIONES.c: In function 'main':
+..\src\FUNCIONES.c:42:2: error: too many arguments to function 'getString'
+   42 |  getString(texto,"Ingrese el apellido\n","Texto invalido\n",0,MAX_ARRAY_CHAR,2);
+      |  ^~~~~~~~~
+In file included from ..\src\FUNCIONES.c:14:
+..\src\utn.h:29:5: note: declared here
+   29 | int getString (char* cadena, char* mensaje, char* mensajeError, int len, int reintentos);
+      |     ^~~~~~~~~
+00:31:18 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FUNCIONES.o" "..\\src\\FUNCIONES.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'getString':
+..\src\utn.c:292:66: error: 'min' undeclared (first use in this function)
+  292 |  if(cadena != NULL && mensaje != NULL && mensajeError != NULL && min <= max && reintentos >=0)
+      |                                                                  ^~~
+..\src\utn.c:292:66: note: each undeclared identifier is reported only once for each function it appears in
+..\src\utn.c:292:73: error: 'max' undeclared (first use in this function)
+  292 |  if(cadena != NULL && mensaje != NULL && mensajeError != NULL && min <= max && reintentos >=0)
+      |                                                                         ^~~
+..\src\utn.c:298:21: warning: comparison between pointer and integer
+  298 |    if(strlen(buffer <=len))
+      |                     ^~
+..\src\utn.c:298:21: warning: passing argument 1 of 'strlen' makes pointer from integer without a cast [-Wint-conversion]
+  298 |    if(strlen(buffer <=len))
+      |              ~~~~~~~^~~~~
+      |                     |
+      |                     int
+In file included from ..\src\utn.c:9:
+c:\mingw\include\string.h:83:49: note: expected 'const char *' but argument is of type 'int'
+   83 | _CRTIMP __cdecl __MINGW_NOTHROW  size_t strlen (const char *) __MINGW_ATTRIB_PURE;
+      |                                                 ^~~~~~~~~~~~
+..\src\utn.c:298:7: warning: null argument where non-null required (argument 1) [-Wnonnull]
+  298 |    if(strlen(buffer <=len))
+      |       ^~~~~~
+00:31:41 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'getString':
+..\src\utn.c:292:66: error: 'min' undeclared (first use in this function)
+  292 |  if(cadena != NULL && mensaje != NULL && mensajeError != NULL && min <= max && reintentos >=0)
+      |                                                                  ^~~
+..\src\utn.c:292:66: note: each undeclared identifier is reported only once for each function it appears in
+..\src\utn.c:292:73: error: 'max' undeclared (first use in this function)
+  292 |  if(cadena != NULL && mensaje != NULL && mensajeError != NULL && min <= max && reintentos >=0)
+      |                                                                         ^~~
+00:32:53 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+00:33:49 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+00:35:05 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FUNCIONES.o" "..\\src\\FUNCIONES.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+00:43:00 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'isChar':
+..\src\utn.c:334:19: warning: multi-character character constant [-Wmultichar]
+  334 |    if(cadena[i] < '65' || cadena[i] > '122')
+      |                   ^~~~
+..\src\utn.c:334:39: warning: multi-character character constant [-Wmultichar]
+  334 |    if(cadena[i] < '65' || cadena[i] > '122')
+      |                                       ^~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FUNCIONES.o" "..\\src\\FUNCIONES.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+00:43:20 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+00:43:58 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+00:45:55 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+00:46:18 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+00:46:48 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+00:47:14 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+00:47:43 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+00:48:04 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+00:49:08 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+00:50:44 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+00:52:25 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+00:54:18 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+00:55:08 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+00:56:15 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+00:57:13 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+00:58:29 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+00:59:00 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+00:59:41 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+01:00:33 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+01:04:24 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+01:04:48 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+01:05:54 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+01:07:02 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file FUNCIONES.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:07:02 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+01:08:20 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'isChar':
+..\src\utn.c:352:9: warning: 'ret' is used uninitialized in this function [-Wuninitialized]
+  352 |  return ret;
+      |         ^~~
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+01:08:33 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+01:08:45 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'isChar':
+..\src\utn.c:352:9: warning: 'ret' is used uninitialized in this function [-Wuninitialized]
+  352 |  return ret;
+      |         ^~~
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+01:09:10 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+01:10:23 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+01:12:25 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+01:12:37 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+01:13:54 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+01:14:35 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+01:16:08 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+01:16:39 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+01:17:16 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+01:19:57 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+01:20:21 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FUNCIONES.o" "..\\src\\FUNCIONES.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+01:20:51 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+01:26:30 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+01:29:14 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'getInt':
+..\src\utn.c:115:16: warning: assignment to 'int' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+  115 |    *pResultado = buffer;
+      |                ^
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+01:29:24 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'getInt':
+..\src\utn.c:115:16: warning: assignment to 'int' from 'char (*)[4068]' makes integer from pointer without a cast [-Wint-conversion]
+  115 |    *pResultado = &buffer;
+      |                ^
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+01:29:53 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+01:32:56 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+01:36:13 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'isNumber':
+..\src\utn.c:88:56: error: expected ')' before '{' token
+   88 |    if ((cadena[i] <= ' ' && cadena[i] >= ':')|| (cadena{i}<='/' && cadena[i]>='')) {
+      |                                                 ~      ^
+      |                                                        )
+..\src\utn.c:88:79: error: empty character constant
+   88 |    if ((cadena[i] <= ' ' && cadena[i] >= ':')|| (cadena{i}<='/' && cadena[i]>='')) {
+      |                                                                               ^~
+01:36:53 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'isNumber':
+..\src\utn.c:88:56: error: expected ')' before '{' token
+   88 |    if ((cadena[i] <= ' ' && cadena[i] >= ':')|| (cadena{i}<='/' && cadena[i]>=''))
+      |                                                 ~      ^
+      |                                                        )
+..\src\utn.c:88:79: error: empty character constant
+   88 |    if ((cadena[i] <= ' ' && cadena[i] >= ':')|| (cadena{i}<='/' && cadena[i]>=''))
+      |                                                                               ^~
+01:37:10 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'isNumber':
+..\src\utn.c:88:79: error: empty character constant
+   88 |    if ((cadena[i] <= ' ' && cadena[i] >= ':')|| (cadena[i]<='/' && cadena[i]>=''))
+      |                                                                               ^~
+01:37:52 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'isNumber':
+..\src\utn.c:88:79: error: empty character constant
+   88 |    if ((cadena[i] <= ' ' && cadena[i] >= ':')|| (cadena[i]<='/' && cadena[i]>=''))
+      |                                                                               ^~
+01:38:04 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'isNumber':
+..\src\utn.c:88:22: warning: multi-character character constant [-Wmultichar]
+   88 |    if ((cadena[i] <= 'â– ' && cadena[i] >= ':')|| (cadena[i]<='/' && cadena[i]>='!'))
+      |                      ^~~~~
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+01:38:43 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+01:40:50 **** Incremental Build of configuration Debug for project FUNCIONES ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o FUNCIONES.exe "src\\FUNCIONES.o" "src\\utn.o" 
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
+Info: Nothing to build for FUNCIONES
