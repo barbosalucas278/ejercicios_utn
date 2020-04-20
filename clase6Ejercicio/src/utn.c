@@ -8,213 +8,43 @@
 #include <stdio.h>
 #include <string.h>
 #include "utn.h"
-/*				INT 			*/
-static int getInt (int* pResultado);
-static int isNumber (char* cadena);
-/*				FLOAT 			*/
-static int getFloat (float* pResultado);
-static int isDecimalNumber (char* cadena);
-/*				CHAR			*/
-static int isChar (char* cadena);
-
 
 /*
  *
- * \brief imprime un array int y un array float
+ * \brief funcion para ordenar un array INT
  *
- * */
-int printArrayIntFloat(int *pArray, int size, float *pArrayFloat, int sizeFloat) {
-	int i;
-	int ret = -1;
-
-	if (pArray != NULL && size > 0 && pArrayFloat != NULL && sizeFloat >0) {
-		for (i = 0; i < size; i++) {
-			printf("El indice [%d] tiene como Edad %d y nota %.2f\n", i, pArray[i],pArrayFloat[i]);
-		}
-		ret = 0;
-	}
-
-	return ret;
-}
-
-/*
- * \brief se utiliza para cargar un array de float
  *
  *
  * */
-
-int cargarArrayIntFloat (float* pArrayNotas,int sizeNotas, int* pArrayEdades, int sizeEdades)
+int ordenar (int *pArrayEdad, int size)
 {
-	int ret = 0;
-	int bufferEdades;
-	float bufferNotas;
-	int i;
-	if(pArrayNotas != NULL && sizeNotas>0 && pArrayEdades != NULL && sizeEdades >0)
-	{
-		for(i=0;i<sizeEdades;i++)
-		{
-			if(getNumber(&bufferEdades,"Ingrese una edad\n","ERROR\n",1,115,2))
-			{
-				pArrayEdades[i] = bufferEdades;
-			}
-			if(getNumberDecimal(&bufferNotas,"Ingrese una nota\n","ERROR, Eeso no es una nota valida\n",1,10,2))
-			{
-				pArrayNotas[i] = bufferNotas;
-			}
-		}
-		if(i==sizeEdades&& i==sizeNotas)
-		{
-			ret = 1;
-		}
-	}
-
-	return ret;
-}
-/*
- * \brief se utiliza para cargar un array ded enteros
- *
- *
- * */
-
-int cargarArrayInt (int* pArray,int size)
-{
-	int ret = 0;
-	int buffer;
-	int i;
-	if(pArray != NULL && size >0)
-	{
-		for(i=0;i<size;i++)
-		{
-			if(getNumber(&buffer,"Ingrese una edad\n","ERROR\n",1,115,2))
-			{
-				pArray[i] = buffer;
-			}
-		}
-		if(i==size)
-		{
-			ret = 1;
-		}
-	}
-
-	return ret;
-}
-
-/*
- * \brief inicializa un array de float en un determinado float.
- *
- * */
-
-int initArrayFloat(float* pArray, int size, float pValor)
-{
-	int ret =0;
-	int i;
-	if(pArray != NULL && size>0)
-	{
-		for(i=0;i<size;i++)
-		{
-			pArray[i]= pValor;
-			ret = 1;
-		}
-	}
-
-	return ret;
-}
-/*
- * \brief inicializa un array de enteros en un determinado int.
- *
- * */
-
-int initArrayInt(int* pArray, int size, int pValor)
-{
-	int ret =0;
-	int i;
-	if(pArray != NULL && size>0)
-	{
-		for(i=0;i<size;i++)
-		{
-			pArray[i]= pValor;
-			ret = 1;
-		}
-	}
-
-	return ret;
-}
-/*
- *
- * \brief funcion para ordenar un array INT con otro float
- *
- *
- *
- * */
-
-int ordenarArrayIntFloat(int *pArrayInt, float *pArrayFloat, int size) {
 	int i;
 	int buffer;
-	int bufferF;
 	int flag = 1;
-	int ret = -1;
+	int ret = 0;
 
-	if (pArrayInt != NULL && pArrayFloat != NULL && size > 0) //se verifican que los valores de los arrya sno sean nulos
-			{
-		while (flag) {
+	if (pArrayEdad != NULL && size > 0) //se verifican que los valores de los arrya sno sean nulos
+	{
+		while (flag)
+		{
 			flag = 0; //hace que se produzcan varios ciclos de la iteración del for, asi puede ordenar varias veces hasta tener todo ordenado.
-			for (i = 0; i < size - 1; i++) {
-				if (pArrayInt[i] > pArrayInt[i + 1]) // realiza la comparacion con el valor del proximo indice.
-				{
-					//se swapea la edad si la siguiente
-					buffer = pArrayInt[i];
-					pArrayInt[i] = pArrayInt[i + 1];
-					pArrayInt[i + 1] = buffer;
-					//Se swapea el valor dle salario correspondiente al indice de la edad
-					bufferF = pArrayFloat[i];
-					pArrayFloat[i] = pArrayFloat[i + 1];
-					pArrayFloat[i + 1] = bufferF;
-					flag = 1; //esta flag me asegura que la comparacion se realice hasta que este todo ordenado.
-				}
-			}
-			size--;
-		}
-		ret = 0;
-	}
-	return ret;
-}
-/*
- *
- * \brief funcion para ordenar dos array INT
- *
- *
- *
- * */
-
-int ordenarArrayInt_2(int *pArrayEdad, int *pArraySalario, int size) {
-	int i;
-	int buffer;
-	int bufferS;
-	int flag = 1;
-	int ret = -1;
-
-	if (pArrayEdad != NULL && pArraySalario != NULL && size > 0) //se verifican que los valores de los arrya sno sean nulos
+			for (i = 0; i < size - 1; i++)
 			{
-		while (flag) {
-			flag = 0; //hace que se produzcan varios ciclos de la iteración del for, asi puede ordenar varias veces hasta tener todo ordenado.
-			for (i = 0; i < size - 1; i++) {
 				if (pArrayEdad[i] > pArrayEdad[i + 1]) // realiza la comparacion con el valor del proximo indice.
 				{
 					//se swapea la edad si la siguiente
 					buffer = pArrayEdad[i];
 					pArrayEdad[i] = pArrayEdad[i + 1];
 					pArrayEdad[i + 1] = buffer;
-					//Se swapea el valor dle salario correspondiente al indice de la edad
-					bufferS = pArraySalario[i];
-					pArraySalario[i] = pArraySalario[i + 1];
-					pArraySalario[i + 1] = bufferS;
+
 					flag = 1; //esta flag me asegura que la comparacion se realice hasta que este todo ordenado.
 				}
 			}
 			size--;
 		}
-		ret = 0;
+		ret = 1;
 	}
+
 	return ret;
 }
 
@@ -244,7 +74,7 @@ int printArrayInt(int *pArray, int size) {
  *
  * */
 
-static int isNumber(char *cadena) {
+int isNumber(char *cadena) {
 	int ret=0;
 	int i;
 	if (cadena != NULL) {
@@ -262,6 +92,9 @@ static int isNumber(char *cadena) {
 		}
 		if (cadena[i] == '\0') {
 			ret = 1;
+			printf("es correcta\n");
+		} else {
+			printf("Es incorrecta\n");
 		}
 	}
 	return ret;
@@ -271,7 +104,7 @@ static int isNumber(char *cadena) {
  * \param pResultado es el valor de la direccion de memoria en donde voy a guardar lo que voy a tranformar con atoi().
  * \return 1 si es un int -1 si no es un int
  * */
-static int getInt(int *pResultado) {
+int getInt(int *pResultado) {
 	int ret = 0;
 	char buffer[MAX_ARRAY_CHAR];
 	if (pResultado != NULL) {
@@ -330,7 +163,7 @@ int getNumber(int *pResultado, char *mensaje, char *mensajeError, int min,
  * \return 1 si es un int von la validacion correspondiente -1 si no es un int.
  *
  * */
-static int isDecimalNumber(char *cadena) {
+int isDecimalNumber(char *cadena) {
 	int i;
 	int ret = 1;
 	if (cadena != NULL) {
@@ -352,7 +185,7 @@ static int isDecimalNumber(char *cadena) {
  * \param pResultado es el valor de la direccion de memoria en donde voy a guardar lo que voy a tranformar con atof().
  * \return 1 si es un float -1 si no es un float
  * */
-static int getFloat(float *pResultado) {
+int getFloat(float *pResultado) {
 	int ret = -1;
 	char buffer[MAX_ARRAY_CHAR];
 	if (pResultado != NULL) {
@@ -500,7 +333,7 @@ int getString (char* cadena, char* mensaje, char* mensajeError, int len, int rei
  *
  * */
 
-static int isChar (char* cadena)
+int isChar (char* cadena)
 {
 	int i=0;
 	int ret=0 ;

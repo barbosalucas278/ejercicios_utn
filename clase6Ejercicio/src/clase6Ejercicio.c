@@ -12,34 +12,38 @@ Minimo
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "new.h"
-#define CANT_NUMEROS 10
+#include <string.h>
+#include "utn.h"
+
 
 int main() {
 	setbuf(stdout, NULL);
 	int option;
 	int arrayN[CANT_NUMEROS];
+	int retA;
 	int i;
 	int buffer;
-	int respuestaN;
 	int promedio;
 	int maximo;
 	int minimo;
-
-	for(i=0; i<CANT_NUMEROS;i++)
+	getNumber(&buffer,"Ingrese un número","Error, opcion incorrecta",MAX,MIN,2);
+	for(i=0; i<CANT_NUMEROS; i++)
 	{
-		respuestaN = getNumero(&buffer,"Ingrese un número","Error, opcion incorrecta",-100,100,2);
-		if(respuestaN ==0)
-		{
+		retA =
+		if(retA){
 			arrayN[i] = buffer;
 		}
+		printf("%d \n", arrayN[i]);
 	}
-	do
+
+	/*do
 	{
-		getNumero(&option,"¿Que desea hacer?\n1-Analizar el array\n2Verificar valor\nMostrar ordenado de mayor a menor","Error, opcion incorrecta",1,4,2);
+		getNumber(&option,"¿Que desea hacer?\n1-Analizar el array\n2Verificar valor\nMostrar ordenado de mayor a menor","Error, opcion incorrecta",1,4,2);
 		switch(option)
 		{
 			case 1:
+				ordenar(arrayN,10);
+				printArrayInt(arrayN, CANT_NUMEROS);
 				break;
 			case 2:
 				break;
@@ -48,7 +52,7 @@ int main() {
 			case 4:
 				break;
 		}
-	}while(option != 4);
+	}while(option != 4);*/
 
 	return 0;
 }

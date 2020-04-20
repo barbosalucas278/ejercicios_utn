@@ -16,7 +16,62 @@ static int getFloat (float* pResultado);
 static int isDecimalNumber (char* cadena);
 /*				CHAR			*/
 static int isChar (char* cadena);
+/*
+ * \brief imrpime un array de string
+ *
+ *
+ * */
+int printArrayStr (char* pArray, int size)
+{
+	int ret = 0;
+	int i;
+	if(pArray != NULL && size > 0)
+	{
+		for(i=0;i<size;i++)
+		{
+			printf("El indice [%d] tiene como valor %d\n",i,pArray[i]);
+		}
+	}
+	return ret;
+}
+/*
+ * \brief imprime un array de float
+ *
+ * */
+int printArrayFloat(float *pArrayFloat, int sizeFloat) {
+	int i;
+	int ret = -1;
 
+	if (pArrayFloat != NULL && sizeFloat >0) {
+		for (i = 0; i < sizeFloat; i++) {
+			printf("El indice [%d] tiene como Valor %.2f\n", i,pArrayFloat[i]);
+		}
+		ret = 0;
+	}
+
+	return ret;
+}
+
+/*
+ * \brief inicializa un array de caracteres.
+ *
+ * */
+int initArrayChar(char* pArray, int size, int pIni)
+{
+	int ret = 0;
+	int i;
+	if(pArray != NULL && size > 0 )
+	{
+		for(i=0;i<size;i++)
+		{
+			pArray[i] = pIni;
+		}
+		ret = 1;
+
+	}
+
+	return ret;
+}
 
 /*
  *
@@ -36,33 +91,89 @@ int printArrayIntFloat(int *pArray, int size, float *pArrayFloat, int sizeFloat)
 
 	return ret;
 }
+/*
+ * \brief saca el promedio de dos arrays INT
+ *
+ *
+ *
+ * */
+/*
+ * \brief saca el promedio de los numeros de un array.
+ * \param pArray
+ * \param size
+ * \param pPromedio
+ * \return
+ * */
 
+int promedioArray (int* pArray,int size,int* pArray2, int size2,float* pPromedio)
+{
+	int ret = 0;
+	int i;
+	int acumulador = 0;
+	float bufferPromedio;
+	if(pArray != NULL && size >0 && pArray2 != NULL && size2 >0 && pPromedio != NULL)
+	{
+		for(i=0;	i<size;	  i++)
+		{
+			acumulador = pArray[i] + pArray2[i];
+			bufferPromedio = acumulador / 2;
+			*pPromedio=bufferPromedio;
+		}
+
+	ret = 1;
+	}
+
+
+	return ret;
+}
 /*
  * \brief se utiliza para cargar un array de float
  *
  *
  * */
 
-int cargarArrayIntFloat (float* pArrayNotas,int sizeNotas, int* pArrayEdades, int sizeEdades)
+int cargarArray (int* pLegajo ,int sizeLegajo ,char* pApellido ,int sizeApellido,int* pArrayEdades,int sizeEdades ,char* pSexo,int sizeSexo,int* pNota1,int sizeNota1,int* pNota2,int sizeNota2 ,float* pArrayPromedio,int sizePromedio)
 {
 	int ret = 0;
-	int bufferEdades;
-	float bufferNotas;
+	char bufferApellido[50];
+	int bufferEdad;
+	char bufferSexo[10];
+	int bufferNota1;
+	int bufferNota2;
+	float bufferPromedio;
 	int i;
-	if(pArrayNotas != NULL && sizeNotas>0 && pArrayEdades != NULL && sizeEdades >0)
+	if(pLegajo != NULL && sizeLegajo>0 && pApellido != NULL && sizeApellido >0 && pArrayEdades != NULL && sizeEdades >0 && pSexo != NULL && sizeSexo >0 &&
+			pNota1 != NULL && sizeNota1 >0 && pNota2 != NULL && sizeNota2 >0 && pArrayPromedio != NULL && sizePromedio >0)
 	{
-		for(i=0;i<sizeEdades;i++)
+		for(i=0;i<MAX_ARRAY;i++)
 		{
-			if(getNumber(&bufferEdades,"Ingrese una edad\n","ERROR\n",1,115,2))
+			pArrayEdades[i] = i +1; //carga legajo
+			if(getString(bufferApellido,"Ingrese el apellido","ERROR",50,2))
 			{
-				pArrayEdades[i] = bufferEdades;
+				strcpy(pApellido,bufferApellido);
 			}
-			if(getNumberDecimal(&bufferNotas,"Ingrese una nota\n","ERROR, Eeso no es una nota valida\n",1,10,2))
+			if(getNumber(&bufferEdad,"Ingrese la edad\n","ERROR, eso no es una edad valida\n",1,115,2))
 			{
-				pArrayNotas[i] = bufferNotas;
+				pArrayEdades[i] = bufferEdad;
+			}
+			if(getString(bufferSexo,"Ingrese el sexo\n","ERROR\n",10,2))
+			{
+				strcpy(pSexo,bufferSexo);
+			}
+			if(getNumber(&bufferNota1,"Ingrese la nota1\n","ERROR\n",1,10,2))
+			{
+				pNota1[i] = bufferNota1;
+			}
+			if(getNumber(&bufferNota2,"Ingrese la nota2\n","ERROR\n",1,10,2))
+			{
+				pNota2[i] = bufferNota2;
+			}
+			if(promedioArray(pNota1,MAX_ARRAY,pNota2,MAX_ARRAY,&bufferPromedio))
+			{
+				pArrayPromedio[i]= bufferPromedio;
 			}
 		}
-		if(i==sizeEdades&& i==sizeNotas)
+		if(i==MAX_ARRAY)
 		{
 			ret = 1;
 		}
@@ -113,8 +224,8 @@ int initArrayFloat(float* pArray, int size, float pValor)
 		for(i=0;i<size;i++)
 		{
 			pArray[i]= pValor;
-			ret = 1;
 		}
+			ret = 1;
 	}
 
 	return ret;
@@ -273,11 +384,11 @@ static int isNumber(char *cadena) {
  * */
 static int getInt(int *pResultado) {
 	int ret = 0;
-	char buffer[MAX_ARRAY_CHAR];
+	char buffer[MAX_ARRAY];
 	if (pResultado != NULL) {
 		fflush(stdin);
-		buffer[MAX_ARRAY_CHAR-1] = '\0';
-		fgets(buffer, MAX_ARRAY_CHAR, stdin);
+		buffer[MAX_ARRAY-1] = '\0';
+		fgets(buffer, MAX_ARRAY, stdin);
 		if (isNumber(buffer)) {
 			*pResultado = atoi(buffer);
 			ret = 1;
@@ -354,10 +465,10 @@ static int isDecimalNumber(char *cadena) {
  * */
 static int getFloat(float *pResultado) {
 	int ret = -1;
-	char buffer[MAX_ARRAY_CHAR];
+	char buffer[MAX_ARRAY];
 	if (pResultado != NULL) {
 		fflush(stdin);
-		fgets(buffer, MAX_ARRAY_CHAR, stdin);
+		fgets(buffer, MAX_ARRAY, stdin);
 		if (isDecimalNumber(buffer)) {
 			*pResultado = atof(buffer);
 			ret = 1;
@@ -461,15 +572,15 @@ int getChar(char *pResultado, char *mensaje, char *mensajeError, char min,
 int getString (char* cadena, char* mensaje, char* mensajeError, int len, int reintentos)
 {
 	int ret =0;
-	char buffer [MAX_ARRAY_CHAR];
+	char buffer [MAX_ARRAY];
 	if(cadena != NULL && mensaje != NULL && mensajeError != NULL && len >0 && reintentos >=0)
 	{
 		while(reintentos > 0)
 		{
 			printf("%s",mensaje);
 			fflush(stdin);
-			fgets(buffer,MAX_ARRAY_CHAR,stdin);
-			buffer[MAX_ARRAY_CHAR-1] = '\0';
+			fgets(buffer,MAX_ARRAY,stdin);
+			buffer[MAX_ARRAY-1] = '\0';
 			if(isChar(buffer))
 			{
 				if(strlen(buffer) <= len)
@@ -519,13 +630,9 @@ static int isChar (char* cadena)
 		}
 		if(cadena[i]=='\0')
 		{
-			printf("Es correcta\n");
 			ret=1;
 		}
-		else
-		{
-			printf("Es incorrecta\n");
-		}
+
 
 	}
 
