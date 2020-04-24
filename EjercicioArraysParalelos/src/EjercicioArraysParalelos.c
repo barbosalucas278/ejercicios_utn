@@ -10,57 +10,53 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "utn.h"
 
 int main() {
 	setbuf(stdout, NULL);
 	int legajo[MAX_ARRAY];
-	char apellido[MAX_ARRAY];
+	int busquedaEstudiante;
+	char apellido [MAX_ARRAY][50];
+	char sexo[MAX_ARRAY][50];
 	int edad[MAX_ARRAY];
-	char sexo[MAX_ARRAY];
 	int nota1[MAX_ARRAY];
 	int nota2[MAX_ARRAY];
 	float promedio[MAX_ARRAY];
-	int i;
 	int option;
-	if(getNumber(&option,"Que desea hacer?\n1-Inicializar los arrays\n2-Cargar los datos\3-Mostrar 1 estudiante\4-Mostrar todos los estudiantes\n5-Ordenar por legajo\6-Salir\n","ERROR\n",1,6,2))
+
+	while(option!=6)
 	{
-		do{
+		getNumber(&option,"Qué desea hacer?\n1-Inicializar arrays\n2-Cargar arrays\n3-Mostrar 1 estudiante\n4-Mostrar todos los estudiantes\5-Ordenar por criterio\6-Salir","ERROR,opción incorrecta",1,6,2);
 		switch(option)
 		{
 		case 1:
-			if(initArrayInt(legajo,MAX_ARRAY,0))
-				printf("1");
-			if(initArrayChar(apellido,MAX_ARRAY,0))
-				printf("1");
-			if(initArrayInt(edad,MAX_ARRAY,0))
-				printf("1");
-			if(initArrayChar(sexo,MAX_ARRAY,0))
-				printf("1");
-			if(initArrayInt(nota1,MAX_ARRAY,0))
-				printf("1");
-			if(initArrayInt(nota2,MAX_ARRAY,0))
-				printf("1");
-			if(initArrayFloat(promedio,MAX_ARRAY,0))
-				printf("1");
+			initArrayInt(legajo,MAX_ARRAY,0);
+			initArrayInt(edad,MAX_ARRAY,0);
+			initArrayInt(nota1,MAX_ARRAY,0);
+			initArrayInt(nota2,MAX_ARRAY,0);
+			initArrayFloat(promedio,MAX_ARRAY,0);
 			break;
 		case 2:
-			cargarArray(legajo,MAX_ARRAY,apellido,MAX_ARRAY,edad,MAX_ARRAY,sexo,MAX_ARRAY,nota1,MAX_ARRAY,nota2,MAX_ARRAY,promedio,MAX_ARRAY);
+			cargarDatos(legajo,apellido,sexo,edad,nota1,nota2,promedio,MAX_ARRAY);
 			break;
-		/*printArrayInt(legajo,MAX_ARRAY);
-		printArrayStr(apellido,MAX_ARRAY);
-		printArrayInt(edad,MAX_ARRAY);
-		printArrayStr(sexo,MAX_ARRAY);
-		printArrayInt(nota1,MAX_ARRAY);
-		printArrayInt(nota2,MAX_ARRAY);
-		printArrayFloat(promedio,MAX_ARRAY);
-*/
+		case 3:
+			getNumber(&busquedaEstudiante,"Ingrese el numero de legajo\n","ERROR, legajo incorrecto\n",0,MAX_ARRAY,2);
+			mostrar1Estudiante(legajo,apellido,sexo,edad,nota1,nota2,promedio,MAX_ARRAY,busquedaEstudiante);
+			break;
+		case 4:
+			mostrarEstudiantes(legajo,apellido,sexo,edad,nota1,nota2,promedio,MAX_ARRAY);
+			break;
+		case 5:
+			ordenarLegajoEstudiantes(legajo,apellido,sexo,edad,nota1,nota2,promedio,MAX_ARRAY);
+			break;
+		case 6:
+			break;
 		}
 
-		}while(option != 6);
-	}
-	for (i=0;i<MAX_ARRAY;i++)
-	{
+
+
+
 
 	}
 

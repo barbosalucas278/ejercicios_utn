@@ -1,586 +1,149 @@
-10:52:51 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
+15:35:10 **** Incremental Build of configuration Debug for project claseStruct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseStruct.o" "..\\src\\claseStruct.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'cargarArrayInt':
+..\src\utn.c:83:6: warning: implicit declaration of function 'getNumber'; did you mean 'isNumber'? [-Wimplicit-function-declaration]
+   83 |   if(getNumber(&buffer,"Ingrese un número\n","ERROR\n",1,115,2))
+      |      ^~~~~~~~~
+      |      isNumber
+..\src\utn.c: In function 'getString':
+..\src\utn.c:310:15: error: 'MAX_ARRAY_CHAR' undeclared (first use in this function)
+  310 |  char buffer [MAX_ARRAY_CHAR];
+      |               ^~~~~~~~~~~~~~
+..\src\utn.c:310:15: note: each undeclared identifier is reported only once for each function it appears in
+..\src\utn.c:310:7: warning: unused variable 'buffer' [-Wunused-variable]
+  310 |  char buffer [MAX_ARRAY_CHAR];
+      |       ^~~~~~
+15:38:03 **** Incremental Build of configuration Debug for project claseStruct ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validation.o" "..\\src\\validation.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'cargarArrayInt':
+..\src\utn.c:83:6: warning: implicit declaration of function 'getNumber'; did you mean 'isNumber'? [-Wimplicit-function-declaration]
+   83 |   if(getNumber(&buffer,"Ingrese un número\n","ERROR\n",1,115,2))
+      |      ^~~~~~~~~
+      |      isNumber
+..\src\utn.c: In function 'getString':
+..\src\utn.c:291:15: error: 'MAX_ARRAY_CHAR' undeclared (first use in this function)
+  291 |  char buffer [MAX_ARRAY_CHAR];
+      |               ^~~~~~~~~~~~~~
+..\src\utn.c:291:15: note: each undeclared identifier is reported only once for each function it appears in
+..\src\utn.c:291:7: warning: unused variable 'buffer' [-Wunused-variable]
+  291 |  char buffer [MAX_ARRAY_CHAR];
+      |       ^~~~~~
+15:38:59 **** Incremental Build of configuration Debug for project claseStruct ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EjercicioArraysParalelos.o" "..\\src\\EjercicioArraysParalelos.c" 
-gcc -o EjercicioArraysParalelos "src\\EjercicioArraysParalelos.o" "src\\utn.o" 
-Info: Nothing to build for EjercicioArraysParalelos
-11:06:11 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
+..\src\utn.c: In function 'cargarArrayInt':
+..\src\utn.c:83:6: warning: implicit declaration of function 'getNumber'; did you mean 'isNumber'? [-Wimplicit-function-declaration]
+   83 |   if(getNumber(&buffer,"Ingrese un número\n","ERROR\n",1,115,2))
+      |      ^~~~~~~~~
+      |      isNumber
+gcc -o claseStruct "src\\claseStruct.o" "src\\utn.o" "src\\validation.o" 
+15:39:23 **** Incremental Build of configuration Debug for project claseStruct ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-..\src\utn.c: In function 'printArrayStr':
-..\src\utn.c:32:13: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
-   32 |    printf("%s",pArray[i]);
-      |            ~^  ~~~~~~~~~
-      |             |        |
-      |             char *   int
-      |            %d
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EjercicioArraysParalelos.o" "..\\src\\EjercicioArraysParalelos.c" 
-gcc -o EjercicioArraysParalelos "src\\EjercicioArraysParalelos.o" "src\\utn.o" 
-11:06:40 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
+..\src\utn.c: In function 'cargarArrayInt':
+..\src\utn.c:83:6: warning: implicit declaration of function 'getNumber'; did you mean 'isNumber'? [-Wimplicit-function-declaration]
+   83 |   if(getNumber(&buffer,"Ingrese un número\n","ERROR\n",1,115,2))
+      |      ^~~~~~~~~
+      |      isNumber
+gcc -o claseStruct "src\\claseStruct.o" "src\\utn.o" "src\\validation.o" 
+15:40:52 **** Incremental Build of configuration Debug for project claseStruct ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-gcc -o EjercicioArraysParalelos "src\\EjercicioArraysParalelos.o" "src\\utn.o" 
-Info: Nothing to build for EjercicioArraysParalelos
-11:15:29 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
+..\src\utn.c: In function 'cargarArrayInt':
+..\src\utn.c:82:6: warning: implicit declaration of function 'getNumber'; did you mean 'isNumber'? [-Wimplicit-function-declaration]
+   82 |   if(getNumber(&buffer,"Ingrese un número\n","ERROR\n",1,115,2))
+      |      ^~~~~~~~~
+      |      isNumber
+gcc -o claseStruct "src\\claseStruct.o" "src\\utn.o" "src\\validation.o" 
+15:42:06 **** Incremental Build of configuration Debug for project claseStruct ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EjercicioArraysParalelos.o" "..\\src\\EjercicioArraysParalelos.c" 
-..\src\EjercicioArraysParalelos.c: In function 'main':
-..\src\EjercicioArraysParalelos.c:26:35: warning: character constant too long for its type
-   26 |  initArrayChar(apellido,MAX_ARRAY,'VACIO');
-      |                                   ^~~~~~~
-..\src\EjercicioArraysParalelos.c:26:35: warning: overflow in conversion from 'int' to 'char' changes value from '1094928719' to '79' [-Woverflow]
-..\src\EjercicioArraysParalelos.c:28:31: warning: character constant too long for its type
-   28 |  initArrayChar(sexo,MAX_ARRAY,'VACIO');
-      |                               ^~~~~~~
-..\src\EjercicioArraysParalelos.c:28:31: warning: overflow in conversion from 'int' to 'char' changes value from '1094928719' to '79' [-Woverflow]
-gcc -o EjercicioArraysParalelos "src\\EjercicioArraysParalelos.o" "src\\utn.o" 
-Info: Nothing to build for EjercicioArraysParalelos
-11:15:52 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validation.o" "..\\src\\validation.c" 
+gcc -o claseStruct "src\\claseStruct.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for claseStruct
+15:43:27 **** Incremental Build of configuration Debug for project claseStruct ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EjercicioArraysParalelos.o" "..\\src\\EjercicioArraysParalelos.c" 
-gcc -o EjercicioArraysParalelos "src\\EjercicioArraysParalelos.o" "src\\utn.o" 
-Info: Nothing to build for EjercicioArraysParalelos
-11:16:24 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validation.o" "..\\src\\validation.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseStruct.o" "..\\src\\claseStruct.c" 
+gcc -o claseStruct "src\\claseStruct.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for claseStruct
+15:45:36 **** Incremental Build of configuration Debug for project claseStruct ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EjercicioArraysParalelos.o" "..\\src\\EjercicioArraysParalelos.c" 
-gcc -o EjercicioArraysParalelos "src\\EjercicioArraysParalelos.o" "src\\utn.o" 
-Info: Nothing to build for EjercicioArraysParalelos
-11:16:54 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
-Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseStruct.o" "..\\src\\claseStruct.c" 
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-gcc -o EjercicioArraysParalelos "src\\EjercicioArraysParalelos.o" "src\\utn.o" 
-Info: Nothing to build for EjercicioArraysParalelos
-11:17:02 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
+..\src\utn.c: In function 'cargarArrayInt':
+..\src\utn.c:82:6: warning: implicit declaration of function 'getNumber'; did you mean 'isNumber'? [-Wimplicit-function-declaration]
+   82 |   if(getNumber(&buffer,"Ingrese un número\n","ERROR\n",1,115,2))
+      |      ^~~~~~~~~
+      |      isNumber
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validation.o" "..\\src\\validation.c" 
+..\src\validation.c: In function 'getInt':
+..\src\validation.c:65:14: error: 'LEN_ARRAY' undeclared (first use in this function)
+   65 |  char buffer[LEN_ARRAY];
+      |              ^~~~~~~~~
+..\src\validation.c:65:14: note: each undeclared identifier is reported only once for each function it appears in
+..\src\validation.c:65:7: warning: unused variable 'buffer' [-Wunused-variable]
+   65 |  char buffer[LEN_ARRAY];
+      |       ^~~~~~
+..\src\validation.c: In function 'getFloat':
+..\src\validation.c:98:14: error: 'LEN_ARRAY' undeclared (first use in this function)
+   98 |  char buffer[LEN_ARRAY];
+      |              ^~~~~~~~~
+..\src\validation.c:98:7: warning: unused variable 'buffer' [-Wunused-variable]
+   98 |  char buffer[LEN_ARRAY];
+      |       ^~~~~~
+15:47:13 **** Incremental Build of configuration Debug for project claseStruct ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-gcc -o EjercicioArraysParalelos "src\\EjercicioArraysParalelos.o" "src\\utn.o" 
-Info: Nothing to build for EjercicioArraysParalelos
-11:18:01 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseStruct.o" "..\\src\\claseStruct.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validation.o" "..\\src\\validation.c" 
+gcc -o claseStruct "src\\claseStruct.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for claseStruct
+15:48:14 **** Incremental Build of configuration Debug for project claseStruct ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-..\src\utn.c:59:5: error: conflicting types for 'initArrayChar'
-   59 | int initArrayChar(char* pArray, int size, char* pString)
-      |     ^~~~~~~~~~~~~
-In file included from ..\src\utn.c:10:
-..\src\utn.h:24:5: note: previous declaration of 'initArrayChar' was here
-   24 | int initArrayChar(char* pArray, int size, char pChar);
-      |     ^~~~~~~~~~~~~
-..\src\utn.c: In function 'initArrayChar':
-..\src\utn.c:67:14: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
-   67 |    pArray[i] = pString;
-      |              ^
-11:18:02 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-..\src\utn.c:59:5: error: conflicting types for 'initArrayChar'
-   59 | int initArrayChar(char* pArray, int size, char* pString)
-      |     ^~~~~~~~~~~~~
-In file included from ..\src\utn.c:10:
-..\src\utn.h:24:5: note: previous declaration of 'initArrayChar' was here
-   24 | int initArrayChar(char* pArray, int size, char pChar);
-      |     ^~~~~~~~~~~~~
-..\src\utn.c: In function 'initArrayChar':
-..\src\utn.c:67:14: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
-   67 |    pArray[i] = pString;
-      |              ^
-11:18:16 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EjercicioArraysParalelos.o" "..\\src\\EjercicioArraysParalelos.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-..\src\utn.c: In function 'initArrayChar':
-..\src\utn.c:67:14: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
-   67 |    pArray[i] = pString;
-      |              ^
-gcc -o EjercicioArraysParalelos "src\\EjercicioArraysParalelos.o" "src\\utn.o" 
-11:18:31 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-gcc -o EjercicioArraysParalelos "src\\EjercicioArraysParalelos.o" "src\\utn.o" 
-Info: Nothing to build for EjercicioArraysParalelos
-11:20:21 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-..\src\utn.c: In function 'initArrayChar':
-..\src\utn.c:67:17: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
-   67 |    strcpy(pArray[i],pString);
-      |           ~~~~~~^~~
-      |                 |
-      |                 char
-In file included from ..\src\utn.c:9:
-c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char'
-   79 | _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
-      |                                        ^~~~~~
-gcc -o EjercicioArraysParalelos "src\\EjercicioArraysParalelos.o" "src\\utn.o" 
-11:21:20 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-..\src\utn.c:59:5: error: conflicting types for 'initArrayChar'
-   59 | int initArrayChar(char* pArray, int size, int pIni)
-      |     ^~~~~~~~~~~~~
-In file included from ..\src\utn.c:10:
-..\src\utn.h:24:5: note: previous declaration of 'initArrayChar' was here
-   24 | int initArrayChar(char* pArray, int size, char* pChar);
-      |     ^~~~~~~~~~~~~
-11:21:36 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EjercicioArraysParalelos.o" "..\\src\\EjercicioArraysParalelos.c" 
-..\src\EjercicioArraysParalelos.c: In function 'main':
-..\src\EjercicioArraysParalelos.c:26:35: warning: passing argument 3 of 'initArrayChar' makes integer from pointer without a cast [-Wint-conversion]
-   26 |  initArrayChar(apellido,MAX_ARRAY,"VACIO");
-      |                                   ^~~~~~~
-      |                                   |
-      |                                   char *
-In file included from ..\src\EjercicioArraysParalelos.c:13:
-..\src\utn.h:24:47: note: expected 'int' but argument is of type 'char *'
-   24 | int initArrayChar(char* pArray, int size, int pIni);
-      |                                           ~~~~^~~~
-..\src\EjercicioArraysParalelos.c:28:31: warning: passing argument 3 of 'initArrayChar' makes integer from pointer without a cast [-Wint-conversion]
-   28 |  initArrayChar(sexo,MAX_ARRAY,"VACIO");
-      |                               ^~~~~~~
-      |                               |
-      |                               char *
-In file included from ..\src\EjercicioArraysParalelos.c:13:
-..\src\utn.h:24:47: note: expected 'int' but argument is of type 'char *'
-   24 | int initArrayChar(char* pArray, int size, int pIni);
-      |                                           ~~~~^~~~
-gcc -o EjercicioArraysParalelos "src\\EjercicioArraysParalelos.o" "src\\utn.o" 
-11:21:54 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EjercicioArraysParalelos.o" "..\\src\\EjercicioArraysParalelos.c" 
-gcc -o EjercicioArraysParalelos "src\\EjercicioArraysParalelos.o" "src\\utn.o" 
-Info: Nothing to build for EjercicioArraysParalelos
-12:11:52 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-..\src\utn.c:101:5: error: conflicting types for 'cargarArray'
-  101 | int cargarArray (int* pLegajo ,int sizeLegajo ,char* pApellido ,int sizeApellido,int* pArrayEdades,
-      |     ^~~~~~~~~~~
-In file included from ..\src\utn.c:10:
-..\src\utn.h:25:5: note: previous declaration of 'cargarArray' was here
-   25 | int cargarArray (int* pLegajo ,int sizeLegajo ,char* pApellido ,int sizeApellido,int* pArrayEdades,
-      |     ^~~~~~~~~~~
-..\src\utn.c: In function 'cargarArray':
-..\src\utn.c:123:17: warning: passing argument 1 of 'getString' from incompatible pointer type [-Wincompatible-pointer-types]
-  123 |    if(getString(&bufferSexo,"Ingrese el sexo","ERROR",10,2))
-      |                 ^~~~~~~~~~~
-      |                 |
-      |                 char (*)[10]
-In file included from ..\src\utn.c:10:
-..\src\utn.h:20:22: note: expected 'char *' but argument is of type 'char (*)[10]'
-   20 | int getString (char* cadena, char* mensaje, char* mensajeError, int len, int reintentos);
-      |                ~~~~~~^~~~~~
-..\src\utn.c:110:8: warning: unused variable 'bufferPromedio' [-Wunused-variable]
-  110 |  float bufferPromedio;
-      |        ^~~~~~~~~~~~~~
-..\src\utn.c:109:6: warning: unused variable 'bufferNota2' [-Wunused-variable]
-  109 |  int bufferNota2;
-      |      ^~~~~~~~~~~
-..\src\utn.c:108:6: warning: unused variable 'bufferNota1' [-Wunused-variable]
-  108 |  int bufferNota1;
-      |      ^~~~~~~~~~~
-..\src\utn.c:105:7: warning: unused variable 'bufferApellido' [-Wunused-variable]
-  105 |  char bufferApellido[50];
-      |       ^~~~~~~~~~~~~~
-12:12:09 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EjercicioArraysParalelos.o" "..\\src\\EjercicioArraysParalelos.c" 
-..\src\EjercicioArraysParalelos.c: In function 'main':
-..\src\EjercicioArraysParalelos.c:36:4: error: break statement not within loop or switch
-   36 |    break;
-      |    ^~~~~
-..\src\EjercicioArraysParalelos.c:37:3: error: case label not within a switch statement
-   37 |   case 2:
-      |   ^~~~
-12:28:06 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EjercicioArraysParalelos.o" "..\\src\\EjercicioArraysParalelos.c" 
-..\src\EjercicioArraysParalelos.c: In function 'main':
-..\src\EjercicioArraysParalelos.c:30:18: warning: passing argument 1 of 'initArrayChar' from incompatible pointer type [-Wincompatible-pointer-types]
-   30 |    initArrayChar(apellido,MAX_ARRAY,0);
-      |                  ^~~~~~~~
-      |                  |
-      |                  char (*)[50]
-In file included from ..\src\EjercicioArraysParalelos.c:13:
-..\src\utn.h:24:25: note: expected 'char *' but argument is of type 'char (*)[50]'
-   24 | int initArrayChar(char* pArray, int size, int pIni);
-      |                   ~~~~~~^~~~~~
-..\src\EjercicioArraysParalelos.c:36:4: error: break statement not within loop or switch
-   36 |    break;
-      |    ^~~~~
-..\src\EjercicioArraysParalelos.c:37:3: error: case label not within a switch statement
-   37 |   case 2:
-      |   ^~~~
-..\src\EjercicioArraysParalelos.c:38:33: warning: passing argument 3 of 'cargarArray' from incompatible pointer type [-Wincompatible-pointer-types]
-   38 |    cargarArray(legajo,MAX_ARRAY,apellido,MAX_ARRAY,edad,MAX_ARRAY,sexo,MAX_ARRAY,nota1,MAX_ARRAY,nota2,MAX_ARRAY,promedio,MAX_ARRAY);
-      |                                 ^~~~~~~~
-      |                                 |
-      |                                 char (*)[50]
-In file included from ..\src\EjercicioArraysParalelos.c:13:
-..\src\utn.h:25:54: note: expected 'char *' but argument is of type 'char (*)[50]'
-   25 | int cargarArray (int* pLegajo ,int sizeLegajo ,char* pApellido ,int sizeApellido,int* pArrayEdades,
-      |                                                ~~~~~~^~~~~~~~~
-..\src\EjercicioArraysParalelos.c:38:98: warning: passing argument 11 of 'cargarArray' makes integer from pointer without a cast [-Wint-conversion]
-   38 |    cargarArray(legajo,MAX_ARRAY,apellido,MAX_ARRAY,edad,MAX_ARRAY,sexo,MAX_ARRAY,nota1,MAX_ARRAY,nota2,MAX_ARRAY,promedio,MAX_ARRAY);
-      |                                                                                                  ^~~~~
-      |                                                                                                  |
-      |                                                                                                  int *
-In file included from ..\src\EjercicioArraysParalelos.c:13:
-..\src\utn.h:26:74: note: expected 'int' but argument is of type 'int *'
-   26 |   int sizeEdades ,char* pSexo,int sizeSexo,int* pNota1,int sizeNota1,int pSizeNota2, int* pNota2,float* pArrayPromedio,int sizePromedio);
-      |                                                                      ~~~~^~~~~~~~~~
-..\src\utn.h:10:19: warning: passing argument 12 of 'cargarArray' makes pointer from integer without a cast [-Wint-conversion]
-   10 | #define MAX_ARRAY 10
-      |                   ^~
-      |                   |
-      |                   int
-..\src\EjercicioArraysParalelos.c:38:104: note: in expansion of macro 'MAX_ARRAY'
-   38 |    cargarArray(legajo,MAX_ARRAY,apellido,MAX_ARRAY,edad,MAX_ARRAY,sexo,MAX_ARRAY,nota1,MAX_ARRAY,nota2,MAX_ARRAY,promedio,MAX_ARRAY);
-      |                                                                                                        ^~~~~~~~~
-..\src\utn.h:26:91: note: expected 'int *' but argument is of type 'int'
-   26 |   int sizeEdades ,char* pSexo,int sizeSexo,int* pNota1,int sizeNota1,int pSizeNota2, int* pNota2,float* pArrayPromedio,int sizePromedio);
-      |                                                                                      ~~~~~^~~~~~
-..\src\EjercicioArraysParalelos.c:39:4: error: break statement not within loop or switch
-   39 |    break;
-      |    ^~~~~
-..\src\EjercicioArraysParalelos.c:41:17: warning: passing argument 1 of 'printArrayStr' from incompatible pointer type [-Wincompatible-pointer-types]
-   41 |   printArrayStr(apellido,MAX_ARRAY);
-      |                 ^~~~~~~~
-      |                 |
-      |                 char (*)[50]
-In file included from ..\src\EjercicioArraysParalelos.c:13:
-..\src\utn.h:28:26: note: expected 'char *' but argument is of type 'char (*)[50]'
-   28 | int printArrayStr (char* pArray, int size);
-      |                    ~~~~~~^~~~~~
-12:28:08 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-..\src\utn.c:135:5: error: conflicting types for 'cargarArray'
-  135 | int cargarArray (int* pLegajo ,int sizeLegajo ,char* pApellido ,int sizeApellido,int* pArrayEdades,
-      |     ^~~~~~~~~~~
-In file included from ..\src\utn.c:10:
-..\src\utn.h:25:5: note: previous declaration of 'cargarArray' was here
-   25 | int cargarArray (int* pLegajo ,int sizeLegajo ,char* pApellido ,int sizeApellido,int* pArrayEdades,
-      |     ^~~~~~~~~~~
-..\src\utn.c: In function 'cargarArray':
-..\src\utn.c:172:55: error: incompatible type for argument 5 of 'promedioArray'
-  172 |    if(promedioArray(pNota1,MAX_ARRAY,pNota2,MAX_ARRAY,bufferPromedio))
-      |                                                       ^~~~~~~~~~~~~~
-      |                                                       |
-      |                                                       float
-..\src\utn.c:108:72: note: expected 'float *' but argument is of type 'float'
-  108 | int promedioArray (int* pArray,int size,int* pArray2, int size2,float* pPromedio)
-      |                                                                 ~~~~~~~^~~~~~~~~
-12:29:16 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-..\src\utn.c:135:5: error: conflicting types for 'cargarArray'
-  135 | int cargarArray (int* pLegajo ,int sizeLegajo ,char* pApellido ,int sizeApellido,int* pArrayEdades,
-      |     ^~~~~~~~~~~
-In file included from ..\src\utn.c:10:
-..\src\utn.h:25:5: note: previous declaration of 'cargarArray' was here
-   25 | int cargarArray (int* pLegajo ,int sizeLegajo ,char* pApellido ,int sizeApellido,int* pArrayEdades,
-      |     ^~~~~~~~~~~
-..\src\utn.c: In function 'cargarArray':
-..\src\utn.c:172:55: error: incompatible type for argument 5 of 'promedioArray'
-  172 |    if(promedioArray(pNota1,MAX_ARRAY,pNota2,MAX_ARRAY,bufferPromedio))
-      |                                                       ^~~~~~~~~~~~~~
-      |                                                       |
-      |                                                       float
-..\src\utn.c:108:72: note: expected 'float *' but argument is of type 'float'
-  108 | int promedioArray (int* pArray,int size,int* pArray2, int size2,float* pPromedio)
-      |                                                                 ~~~~~~~^~~~~~~~~
-12:29:23 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EjercicioArraysParalelos.o" "..\\src\\EjercicioArraysParalelos.c" 
-..\src\EjercicioArraysParalelos.c: In function 'main':
-..\src\EjercicioArraysParalelos.c:32:18: warning: passing argument 1 of 'initArrayChar' from incompatible pointer type [-Wincompatible-pointer-types]
-   32 |    initArrayChar(apellido,MAX_ARRAY,0);
-      |                  ^~~~~~~~
-      |                  |
-      |                  char (*)[50]
-In file included from ..\src\EjercicioArraysParalelos.c:13:
-..\src\utn.h:24:25: note: expected 'char *' but argument is of type 'char (*)[50]'
-   24 | int initArrayChar(char* pArray, int size, int pIni);
-      |                   ~~~~~~^~~~~~
-..\src\EjercicioArraysParalelos.c:40:33: warning: passing argument 3 of 'cargarArray' from incompatible pointer type [-Wincompatible-pointer-types]
-   40 |    cargarArray(legajo,MAX_ARRAY,apellido,MAX_ARRAY,edad,MAX_ARRAY,sexo,MAX_ARRAY,nota1,MAX_ARRAY,nota2,MAX_ARRAY,promedio,MAX_ARRAY);
-      |                                 ^~~~~~~~
-      |                                 |
-      |                                 char (*)[50]
-In file included from ..\src\EjercicioArraysParalelos.c:13:
-..\src\utn.h:25:54: note: expected 'char *' but argument is of type 'char (*)[50]'
-   25 | int cargarArray (int* pLegajo ,int sizeLegajo ,char* pApellido ,int sizeApellido,int* pArrayEdades,
-      |                                                ~~~~~~^~~~~~~~~
-..\src\EjercicioArraysParalelos.c:40:98: warning: passing argument 11 of 'cargarArray' makes integer from pointer without a cast [-Wint-conversion]
-   40 |    cargarArray(legajo,MAX_ARRAY,apellido,MAX_ARRAY,edad,MAX_ARRAY,sexo,MAX_ARRAY,nota1,MAX_ARRAY,nota2,MAX_ARRAY,promedio,MAX_ARRAY);
-      |                                                                                                  ^~~~~
-      |                                                                                                  |
-      |                                                                                                  int *
-In file included from ..\src\EjercicioArraysParalelos.c:13:
-..\src\utn.h:26:74: note: expected 'int' but argument is of type 'int *'
-   26 |   int sizeEdades ,char* pSexo,int sizeSexo,int* pNota1,int sizeNota1,int pSizeNota2, int* pNota2,float* pArrayPromedio,int sizePromedio);
-      |                                                                      ~~~~^~~~~~~~~~
-..\src\utn.h:10:19: warning: passing argument 12 of 'cargarArray' makes pointer from integer without a cast [-Wint-conversion]
-   10 | #define MAX_ARRAY 10
-      |                   ^~
-      |                   |
-      |                   int
-..\src\EjercicioArraysParalelos.c:40:104: note: in expansion of macro 'MAX_ARRAY'
-   40 |    cargarArray(legajo,MAX_ARRAY,apellido,MAX_ARRAY,edad,MAX_ARRAY,sexo,MAX_ARRAY,nota1,MAX_ARRAY,nota2,MAX_ARRAY,promedio,MAX_ARRAY);
-      |                                                                                                        ^~~~~~~~~
-..\src\utn.h:26:91: note: expected 'int *' but argument is of type 'int'
-   26 |   int sizeEdades ,char* pSexo,int sizeSexo,int* pNota1,int sizeNota1,int pSizeNota2, int* pNota2,float* pArrayPromedio,int sizePromedio);
-      |                                                                                      ~~~~~^~~~~~
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-..\src\utn.c:135:5: error: conflicting types for 'cargarArray'
-  135 | int cargarArray (int* pLegajo ,int sizeLegajo ,char* pApellido ,int sizeApellido,int* pArrayEdades,
-      |     ^~~~~~~~~~~
-In file included from ..\src\utn.c:10:
-..\src\utn.h:25:5: note: previous declaration of 'cargarArray' was here
-   25 | int cargarArray (int* pLegajo ,int sizeLegajo ,char* pApellido ,int sizeApellido,int* pArrayEdades,
-      |     ^~~~~~~~~~~
-..\src\utn.c: In function 'cargarArray':
-..\src\utn.c:172:55: error: incompatible type for argument 5 of 'promedioArray'
-  172 |    if(promedioArray(pNota1,MAX_ARRAY,pNota2,MAX_ARRAY,bufferPromedio))
-      |                                                       ^~~~~~~~~~~~~~
-      |                                                       |
-      |                                                       float
-..\src\utn.c:108:72: note: expected 'float *' but argument is of type 'float'
-  108 | int promedioArray (int* pArray,int size,int* pArray2, int size2,float* pPromedio)
-      |                                                                 ~~~~~~~^~~~~~~~~
-12:29:50 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EjercicioArraysParalelos.o" "..\\src\\EjercicioArraysParalelos.c" 
-..\src\EjercicioArraysParalelos.c: In function 'main':
-..\src\EjercicioArraysParalelos.c:40:33: warning: passing argument 3 of 'cargarArray' from incompatible pointer type [-Wincompatible-pointer-types]
-   40 |    cargarArray(legajo,MAX_ARRAY,apellido,MAX_ARRAY,edad,MAX_ARRAY,sexo,MAX_ARRAY,nota1,MAX_ARRAY,nota2,MAX_ARRAY,promedio,MAX_ARRAY);
-      |                                 ^~~~~~~~
-      |                                 |
-      |                                 char (*)[50]
-In file included from ..\src\EjercicioArraysParalelos.c:13:
-..\src\utn.h:25:54: note: expected 'char *' but argument is of type 'char (*)[50]'
-   25 | int cargarArray (int* pLegajo ,int sizeLegajo ,char* pApellido ,int sizeApellido,int* pArrayEdades,
-      |                                                ~~~~~~^~~~~~~~~
-..\src\EjercicioArraysParalelos.c:40:98: warning: passing argument 11 of 'cargarArray' makes integer from pointer without a cast [-Wint-conversion]
-   40 |    cargarArray(legajo,MAX_ARRAY,apellido,MAX_ARRAY,edad,MAX_ARRAY,sexo,MAX_ARRAY,nota1,MAX_ARRAY,nota2,MAX_ARRAY,promedio,MAX_ARRAY);
-      |                                                                                                  ^~~~~
-      |                                                                                                  |
-      |                                                                                                  int *
-In file included from ..\src\EjercicioArraysParalelos.c:13:
-..\src\utn.h:26:74: note: expected 'int' but argument is of type 'int *'
-   26 |   int sizeEdades ,char* pSexo,int sizeSexo,int* pNota1,int sizeNota1,int pSizeNota2, int* pNota2,float* pArrayPromedio,int sizePromedio);
-      |                                                                      ~~~~^~~~~~~~~~
-..\src\utn.h:10:19: warning: passing argument 12 of 'cargarArray' makes pointer from integer without a cast [-Wint-conversion]
-   10 | #define MAX_ARRAY 10
-      |                   ^~
-      |                   |
-      |                   int
-..\src\EjercicioArraysParalelos.c:40:104: note: in expansion of macro 'MAX_ARRAY'
-   40 |    cargarArray(legajo,MAX_ARRAY,apellido,MAX_ARRAY,edad,MAX_ARRAY,sexo,MAX_ARRAY,nota1,MAX_ARRAY,nota2,MAX_ARRAY,promedio,MAX_ARRAY);
-      |                                                                                                        ^~~~~~~~~
-..\src\utn.h:26:91: note: expected 'int *' but argument is of type 'int'
-   26 |   int sizeEdades ,char* pSexo,int sizeSexo,int* pNota1,int sizeNota1,int pSizeNota2, int* pNota2,float* pArrayPromedio,int sizePromedio);
-      |                                                                                      ~~~~~^~~~~~
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-..\src\utn.c:135:5: error: conflicting types for 'cargarArray'
-  135 | int cargarArray (int* pLegajo ,int sizeLegajo ,char* pApellido ,int sizeApellido,int* pArrayEdades,
-      |     ^~~~~~~~~~~
-In file included from ..\src\utn.c:10:
-..\src\utn.h:25:5: note: previous declaration of 'cargarArray' was here
-   25 | int cargarArray (int* pLegajo ,int sizeLegajo ,char* pApellido ,int sizeApellido,int* pArrayEdades,
-      |     ^~~~~~~~~~~
-..\src\utn.c: In function 'cargarArray':
-..\src\utn.c:172:55: error: incompatible type for argument 5 of 'promedioArray'
-  172 |    if(promedioArray(pNota1,MAX_ARRAY,pNota2,MAX_ARRAY,bufferPromedio))
-      |                                                       ^~~~~~~~~~~~~~
-      |                                                       |
-      |                                                       float
-..\src\utn.c:108:72: note: expected 'float *' but argument is of type 'float'
-  108 | int promedioArray (int* pArray,int size,int* pArray2, int size2,float* pPromedio)
-      |                                                                 ~~~~~~~^~~~~~~~~
-12:30:06 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-..\src\utn.c:135:5: error: conflicting types for 'cargarArray'
-  135 | int cargarArray (int* pLegajo ,int sizeLegajo ,char* pApellido ,int sizeApellido,int* pArrayEdades,
-      |     ^~~~~~~~~~~
-In file included from ..\src\utn.c:10:
-..\src\utn.h:25:5: note: previous declaration of 'cargarArray' was here
-   25 | int cargarArray (int* pLegajo ,int sizeLegajo ,char* pApellido ,int sizeApellido,int* pArrayEdades,
-      |     ^~~~~~~~~~~
-..\src\utn.c: In function 'cargarArray':
-..\src\utn.c:172:55: error: incompatible type for argument 5 of 'promedioArray'
-  172 |    if(promedioArray(pNota1,MAX_ARRAY,pNota2,MAX_ARRAY,bufferPromedio))
-      |                                                       ^~~~~~~~~~~~~~
-      |                                                       |
-      |                                                       float
-..\src\utn.c:108:72: note: expected 'float *' but argument is of type 'float'
-  108 | int promedioArray (int* pArray,int size,int* pArray2, int size2,float* pPromedio)
-      |                                                                 ~~~~~~~^~~~~~~~~
-12:30:47 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EjercicioArraysParalelos.o" "..\\src\\EjercicioArraysParalelos.c" 
-..\src\EjercicioArraysParalelos.c: In function 'main':
-..\src\EjercicioArraysParalelos.c:40:102: warning: passing argument 11 of 'cargarArray' makes integer from pointer without a cast [-Wint-conversion]
-   40 |    cargarArray(legajo,MAX_ARRAY,apellido[50],MAX_ARRAY,edad,MAX_ARRAY,sexo,MAX_ARRAY,nota1,MAX_ARRAY,nota2,MAX_ARRAY,promedio,MAX_ARRAY);
-      |                                                                                                      ^~~~~
-      |                                                                                                      |
-      |                                                                                                      int *
-In file included from ..\src\EjercicioArraysParalelos.c:13:
-..\src\utn.h:25:171: note: expected 'int' but argument is of type 'int *'
-   25 | int cargarArray (int* pLegajo ,int sizeLegajo ,char* pApellido ,int sizeApellido,int* pArrayEdades,int sizeEdades ,char* pSexo,int sizeSexo,int* pNota1,int sizeNota1,int pSizeNota2, int* pNota2,float* pArrayPromedio,int sizePromedio);
-      |                                                                                                                                                                       ~~~~^~~~~~~~~~
-In file included from ..\src\EjercicioArraysParalelos.c:13:
-..\src\utn.h:10:19: warning: passing argument 12 of 'cargarArray' makes pointer from integer without a cast [-Wint-conversion]
-   10 | #define MAX_ARRAY 10
-      |                   ^~
-      |                   |
-      |                   int
-..\src\EjercicioArraysParalelos.c:40:108: note: in expansion of macro 'MAX_ARRAY'
-   40 |    cargarArray(legajo,MAX_ARRAY,apellido[50],MAX_ARRAY,edad,MAX_ARRAY,sexo,MAX_ARRAY,nota1,MAX_ARRAY,nota2,MAX_ARRAY,promedio,MAX_ARRAY);
-      |                                                                                                            ^~~~~~~~~
-In file included from ..\src\EjercicioArraysParalelos.c:13:
-..\src\utn.h:25:188: note: expected 'int *' but argument is of type 'int'
-   25 | int cargarArray (int* pLegajo ,int sizeLegajo ,char* pApellido ,int sizeApellido,int* pArrayEdades,int sizeEdades ,char* pSexo,int sizeSexo,int* pNota1,int sizeNota1,int pSizeNota2, int* pNota2,float* pArrayPromedio,int sizePromedio);
-      |                                                                                                                                                                                       ~~~~~^~~~~~
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-..\src\utn.c:135:5: error: conflicting types for 'cargarArray'
-  135 | int cargarArray (int* pLegajo ,int sizeLegajo ,char* pApellido ,int sizeApellido,int* pArrayEdades,
-      |     ^~~~~~~~~~~
-In file included from ..\src\utn.c:10:
-..\src\utn.h:25:5: note: previous declaration of 'cargarArray' was here
-   25 | int cargarArray (int* pLegajo ,int sizeLegajo ,char* pApellido ,int sizeApellido,int* pArrayEdades,int sizeEdades ,char* pSexo,int sizeSexo,int* pNota1,int sizeNota1,int pSizeNota2, int* pNota2,float* pArrayPromedio,int sizePromedio);
-      |     ^~~~~~~~~~~
-..\src\utn.c: In function 'cargarArray':
-..\src\utn.c:172:55: error: incompatible type for argument 5 of 'promedioArray'
-  172 |    if(promedioArray(pNota1,MAX_ARRAY,pNota2,MAX_ARRAY,bufferPromedio))
-      |                                                       ^~~~~~~~~~~~~~
-      |                                                       |
-      |                                                       float
-..\src\utn.c:108:72: note: expected 'float *' but argument is of type 'float'
-  108 | int promedioArray (int* pArray,int size,int* pArray2, int size2,float* pPromedio)
-      |                                                                 ~~~~~~~^~~~~~~~~
-12:30:58 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-..\src\utn.c:135:5: error: conflicting types for 'cargarArray'
-  135 | int cargarArray (int* pLegajo ,int sizeLegajo ,char* pApellido ,int sizeApellido,int* pArrayEdades,int sizeEdades ,char* pSexo,int sizeSexo,int* pNota1,int sizeNota1,int* pNota2,int sizeNota2 ,float* pArrayPromedio,int sizePromedio)
-      |     ^~~~~~~~~~~
-In file included from ..\src\utn.c:10:
-..\src\utn.h:25:5: note: previous declaration of 'cargarArray' was here
-   25 | int cargarArray (int* pLegajo ,int sizeLegajo ,char* pApellido ,int sizeApellido,int* pArrayEdades,int sizeEdades ,char* pSexo,int sizeSexo,int* pNota1,int sizeNota1,int pSizeNota2, int* pNota2,float* pArrayPromedio,int sizePromedio);
-      |     ^~~~~~~~~~~
-..\src\utn.c: In function 'cargarArray':
-..\src\utn.c:171:55: error: incompatible type for argument 5 of 'promedioArray'
-  171 |    if(promedioArray(pNota1,MAX_ARRAY,pNota2,MAX_ARRAY,bufferPromedio))
-      |                                                       ^~~~~~~~~~~~~~
-      |                                                       |
-      |                                                       float
-..\src\utn.c:108:72: note: expected 'float *' but argument is of type 'float'
-  108 | int promedioArray (int* pArray,int size,int* pArray2, int size2,float* pPromedio)
-      |                                                                 ~~~~~~~^~~~~~~~~
-12:31:19 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-..\src\utn.c: In function 'cargarArray':
-..\src\utn.c:171:55: error: incompatible type for argument 5 of 'promedioArray'
-  171 |    if(promedioArray(pNota1,MAX_ARRAY,pNota2,MAX_ARRAY,bufferPromedio))
-      |                                                       ^~~~~~~~~~~~~~
-      |                                                       |
-      |                                                       float
-..\src\utn.c:108:72: note: expected 'float *' but argument is of type 'float'
-  108 | int promedioArray (int* pArray,int size,int* pArray2, int size2,float* pPromedio)
-      |                                                                 ~~~~~~~^~~~~~~~~
-12:32:05 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EjercicioArraysParalelos.o" "..\\src\\EjercicioArraysParalelos.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-gcc -o EjercicioArraysParalelos "src\\EjercicioArraysParalelos.o" "src\\utn.o" 
-Info: Nothing to build for EjercicioArraysParalelos
-12:32:25 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EjercicioArraysParalelos.o" "..\\src\\EjercicioArraysParalelos.c" 
-gcc -o EjercicioArraysParalelos "src\\EjercicioArraysParalelos.o" "src\\utn.o" 
-c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file EjercicioArraysParalelos.exe: Permission denied
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseStruct.o" "..\\src\\claseStruct.c" 
+gcc -o claseStruct "src\\claseStruct.o" "src\\utn.o" "src\\validation.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file claseStruct.exe: Permission denied
 collect2.exe: error: ld returned 1 exit status
-12:32:30 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
+15:48:16 **** Incremental Build of configuration Debug for project claseStruct ****
 Info: Internal Builder is used for build
-gcc -o EjercicioArraysParalelos "src\\EjercicioArraysParalelos.o" "src\\utn.o" 
-Info: Nothing to build for EjercicioArraysParalelos
-Info: Nothing to build for EjercicioArraysParalelos
-12:33:29 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
+gcc -o claseStruct "src\\claseStruct.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for claseStruct
+15:50:30 **** Incremental Build of configuration Debug for project claseStruct ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-gcc -o EjercicioArraysParalelos "src\\EjercicioArraysParalelos.o" "src\\utn.o" 
-Info: Nothing to build for EjercicioArraysParalelos
-12:35:00 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-..\src\utn.c: In function 'cargarArray':
-..\src\utn.c:153:21: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
-  153 |     strcpy(pApellido[i],bufferApellido);
-      |            ~~~~~~~~~^~~
-      |                     |
-      |                     char
-In file included from ..\src\utn.c:9:
-c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char'
-   79 | _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
-      |                                        ^~~~~~
-gcc -o EjercicioArraysParalelos "src\\EjercicioArraysParalelos.o" "src\\utn.o" 
-12:35:15 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validation.o" "..\\src\\validation.c" 
+..\src\validation.c: In function 'getInt':
+..\src\validation.c:65:14: error: 'LEN_ARRAY' undeclared (first use in this function)
+   65 |  char buffer[LEN_ARRAY];
+      |              ^~~~~~~~~
+..\src\validation.c:65:14: note: each undeclared identifier is reported only once for each function it appears in
+..\src\validation.c:65:7: warning: unused variable 'buffer' [-Wunused-variable]
+   65 |  char buffer[LEN_ARRAY];
+      |       ^~~~~~
+..\src\validation.c: In function 'getFloat':
+..\src\validation.c:98:14: error: 'LEN_ARRAY' undeclared (first use in this function)
+   98 |  char buffer[LEN_ARRAY];
+      |              ^~~~~~~~~
+..\src\validation.c:98:7: warning: unused variable 'buffer' [-Wunused-variable]
+   98 |  char buffer[LEN_ARRAY];
+      |       ^~~~~~
+15:51:07 **** Incremental Build of configuration Debug for project claseStruct ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-..\src\utn.c: In function 'cargarArray':
-..\src\utn.c:153:17: warning: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
-  153 |     pApellido[i]=bufferApellido);
-      |                 ^
-..\src\utn.c:153:32: error: expected ';' before ')' token
-  153 |     pApellido[i]=bufferApellido);
-      |                                ^
-      |                                ;
-..\src\utn.c:153:32: error: expected statement before ')' token
-12:35:35 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
+..\src\utn.c: In function 'cargarArrayInt':
+..\src\utn.c:82:6: warning: implicit declaration of function 'getNumber'; did you mean 'isNumber'? [-Wimplicit-function-declaration]
+   82 |   if(getNumber(&buffer,"Ingrese un número\n","ERROR\n",1,115,2))
+      |      ^~~~~~~~~
+      |      isNumber
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseStruct.o" "..\\src\\claseStruct.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validation.o" "..\\src\\validation.c" 
+gcc -o claseStruct "src\\claseStruct.o" "src\\utn.o" "src\\validation.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file claseStruct.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:51:11 **** Incremental Build of configuration Debug for project claseStruct ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-..\src\utn.c: In function 'cargarArray':
-..\src\utn.c:153:21: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
-  153 |     strcpy(pApellido[i],bufferApellido);
-      |            ~~~~~~~~~^~~
-      |                     |
-      |                     char
-In file included from ..\src\utn.c:9:
-c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char'
-   79 | _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
-      |                                        ^~~~~~
-gcc -o EjercicioArraysParalelos "src\\EjercicioArraysParalelos.o" "src\\utn.o" 
-12:37:10 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-gcc -o EjercicioArraysParalelos "src\\EjercicioArraysParalelos.o" "src\\utn.o" 
-Info: Nothing to build for EjercicioArraysParalelos
-12:38:45 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EjercicioArraysParalelos.o" "..\\src\\EjercicioArraysParalelos.c" 
-gcc -o EjercicioArraysParalelos "src\\EjercicioArraysParalelos.o" "src\\utn.o" 
-Info: Nothing to build for EjercicioArraysParalelos
-12:39:10 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EjercicioArraysParalelos.o" "..\\src\\EjercicioArraysParalelos.c" 
-..\src\EjercicioArraysParalelos.c: In function 'main':
-..\src\EjercicioArraysParalelos.c:48:41: warning: passing argument 3 of 'cargarArray' makes pointer from integer without a cast [-Wint-conversion]
-   48 |    cargarArray(legajo,MAX_ARRAY,apellido[50],MAX_ARRAY,edad,MAX_ARRAY,sexo,MAX_ARRAY,nota1,MAX_ARRAY,nota2,MAX_ARRAY,promedio,MAX_ARRAY);
-      |                                 ~~~~~~~~^~~~
-      |                                         |
-      |                                         char
-In file included from ..\src\EjercicioArraysParalelos.c:13:
-..\src\utn.h:25:54: note: expected 'char *' but argument is of type 'char'
-   25 | int cargarArray (int* pLegajo ,int sizeLegajo ,char* pApellido ,int sizeApellido,int* pArrayEdades,int sizeEdades ,char* pSexo,int sizeSexo,int* pNota1,int sizeNota1,int* pNota2,int sizeNota2 ,float* pArrayPromedio,int sizePromedio);
-      |                                                ~~~~~~^~~~~~~~~
-gcc -o EjercicioArraysParalelos "src\\EjercicioArraysParalelos.o" "src\\utn.o" 
-12:39:18 **** Incremental Build of configuration Debug for project EjercicioArraysParalelos ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EjercicioArraysParalelos.o" "..\\src\\EjercicioArraysParalelos.c" 
-gcc -o EjercicioArraysParalelos "src\\EjercicioArraysParalelos.o" "src\\utn.o" 
-Info: Nothing to build for EjercicioArraysParalelos
-Info: Nothing to build for EjercicioArraysParalelos
+gcc -o claseStruct "src\\claseStruct.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for claseStruct
+Info: Nothing to build for claseStruct
