@@ -1,149 +1,1146 @@
-15:35:10 **** Incremental Build of configuration Debug for project claseStruct ****
+10:08:17 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseStruct.o" "..\\src\\claseStruct.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+10:08:52 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+10:11:44 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+10:12:11 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+10:13:43 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+..\src\ejercicioDeArraysParalelosConEstructuras.c: In function 'main':
+..\src\ejercicioDeArraysParalelosConEstructuras.c:30:11: warning: unused variable 'alumno' [-Wunused-variable]
+   30 |  ePersona alumno[LEN_ARRAY];
+      |           ^~~~~~
+..\src\ejercicioDeArraysParalelosConEstructuras.c:29:6: warning: unused variable 'i' [-Wunused-variable]
+   29 |  int i;
+      |      ^
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\utn.o" "src\\validation.o" 
+10:34:11 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+..\src\ejercicioDeArraysParalelosConEstructuras.c: In function 'main':
+..\src\ejercicioDeArraysParalelosConEstructuras.c:22:2: error: unknown type name 'ePersona'
+   22 |  ePersona alumno[LEN_ARRAY];
+      |  ^~~~~~~~
+..\src\ejercicioDeArraysParalelosConEstructuras.c:22:11: warning: unused variable 'alumno' [-Wunused-variable]
+   22 |  ePersona alumno[LEN_ARRAY];
+      |           ^~~~~~
+10:34:28 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+..\src\ejercicioDeArraysParalelosConEstructuras.c: In function 'main':
+..\src\ejercicioDeArraysParalelosConEstructuras.c:23:11: warning: unused variable 'alumno' [-Wunused-variable]
+   23 |  ePersona alumno[LEN_ARRAY];
+      |           ^~~~~~
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+10:35:11 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+..\src\ejercicioDeArraysParalelosConEstructuras.c: In function 'main':
+..\src\ejercicioDeArraysParalelosConEstructuras.c:21:18: error: 'LEN_ARRAY' undeclared (first use in this function)
+   21 |  ePersona alumno[LEN_ARRAY];
+      |                  ^~~~~~~~~
+..\src\ejercicioDeArraysParalelosConEstructuras.c:21:18: note: each undeclared identifier is reported only once for each function it appears in
+..\src\ejercicioDeArraysParalelosConEstructuras.c:24:3: warning: implicit declaration of function 'getNumber' [-Wimplicit-function-declaration]
+   24 |   getNumber(&option,"Qué desea hacer?\n1-Cargar arrays\n2-Mostrar 1 estudiante\n3-Mostrar todos los estudiantes\n4-Ordenar por criterio\n5-Salir\n","ERROR,opción incorrecta",1,6,2);
+      |   ^~~~~~~~~
+..\src\ejercicioDeArraysParalelosConEstructuras.c:21:11: warning: unused variable 'alumno' [-Wunused-variable]
+   21 |  ePersona alumno[LEN_ARRAY];
+      |           ^~~~~~
+10:35:59 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+..\src\ejercicioDeArraysParalelosConEstructuras.c: In function 'main':
+..\src\ejercicioDeArraysParalelosConEstructuras.c:19:18: error: 'LEN_ARRAY' undeclared (first use in this function)
+   19 |  ePersona alumno[LEN_ARRAY];
+      |                  ^~~~~~~~~
+..\src\ejercicioDeArraysParalelosConEstructuras.c:19:18: note: each undeclared identifier is reported only once for each function it appears in
+..\src\ejercicioDeArraysParalelosConEstructuras.c:22:3: warning: implicit declaration of function 'getNumber' [-Wimplicit-function-declaration]
+   22 |   getNumber(&option,"Qué desea hacer?\n1-Cargar arrays\n2-Mostrar 1 estudiante\n3-Mostrar todos los estudiantes\n4-Ordenar por criterio\n5-Salir\n","ERROR,opción incorrecta",1,6,2);
+      |   ^~~~~~~~~
+..\src\ejercicioDeArraysParalelosConEstructuras.c:19:11: warning: unused variable 'alumno' [-Wunused-variable]
+   19 |  ePersona alumno[LEN_ARRAY];
+      |           ^~~~~~
+10:36:11 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+In file included from ..\src\ejercicioDeArraysParalelosConEstructuras.c:13:
+..\src\persona.h:24:2: error: conflicting types for 'ePersona'
+   24 | }ePersona;
+      |  ^~~~~~~~
+In file included from ..\src\persona.h:12,
+                 from ..\src\ejercicioDeArraysParalelosConEstructuras.c:13:
+..\src\persona.h:24:2: note: previous declaration of 'ePersona' was here
+   24 | }ePersona;
+      |  ^~~~~~~~
+..\src\ejercicioDeArraysParalelosConEstructuras.c: In function 'main':
+..\src\ejercicioDeArraysParalelosConEstructuras.c:19:18: error: 'LEN_ARRAY' undeclared (first use in this function)
+   19 |  ePersona alumno[LEN_ARRAY];
+      |                  ^~~~~~~~~
+..\src\ejercicioDeArraysParalelosConEstructuras.c:19:18: note: each undeclared identifier is reported only once for each function it appears in
+..\src\ejercicioDeArraysParalelosConEstructuras.c:22:3: warning: implicit declaration of function 'getNumber' [-Wimplicit-function-declaration]
+   22 |   getNumber(&option,"Qué desea hacer?\n1-Cargar arrays\n2-Mostrar 1 estudiante\n3-Mostrar todos los estudiantes\n4-Ordenar por criterio\n5-Salir\n","ERROR,opción incorrecta",1,6,2);
+      |   ^~~~~~~~~
+..\src\ejercicioDeArraysParalelosConEstructuras.c:19:11: warning: unused variable 'alumno' [-Wunused-variable]
+   19 |  ePersona alumno[LEN_ARRAY];
+      |           ^~~~~~
+10:43:59 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+In file included from ..\src\ejercicioDeArraysParalelosConEstructuras.c:13:
+..\src\persona.h:24:2: error: conflicting types for 'ePersona'
+   24 | }ePersona;
+      |  ^~~~~~~~
+In file included from ..\src\persona.h:12,
+                 from ..\src\ejercicioDeArraysParalelosConEstructuras.c:13:
+..\src\persona.h:24:2: note: previous declaration of 'ePersona' was here
+   24 | }ePersona;
+      |  ^~~~~~~~
+..\src\ejercicioDeArraysParalelosConEstructuras.c: In function 'main':
+..\src\ejercicioDeArraysParalelosConEstructuras.c:20:11: warning: unused variable 'alumno' [-Wunused-variable]
+   20 |  ePersona alumno[LEN_ARRAY];
+      |           ^~~~~~
+10:44:26 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+..\src\ejercicioDeArraysParalelosConEstructuras.c: In function 'main':
+..\src\ejercicioDeArraysParalelosConEstructuras.c:20:11: warning: unused variable 'alumno' [-Wunused-variable]
+   20 |  ePersona alumno[LEN_ARRAY];
+      |           ^~~~~~
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+10:44:32 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+..\src\ejercicioDeArraysParalelosConEstructuras.c: In function 'main':
+..\src\ejercicioDeArraysParalelosConEstructuras.c:20:11: warning: unused variable 'alumno' [-Wunused-variable]
+   20 |  ePersona alumno[LEN_ARRAY];
+      |           ^~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+10:45:27 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+..\src\ejercicioDeArraysParalelosConEstructuras.c: In function 'main':
+..\src\ejercicioDeArraysParalelosConEstructuras.c:20:18: error: 'LEN_ARRAY' undeclared (first use in this function)
+   20 |  ePersona alumno[LEN_ARRAY];
+      |                  ^~~~~~~~~
+..\src\ejercicioDeArraysParalelosConEstructuras.c:20:18: note: each undeclared identifier is reported only once for each function it appears in
+..\src\ejercicioDeArraysParalelosConEstructuras.c:23:3: warning: implicit declaration of function 'getNumber' [-Wimplicit-function-declaration]
+   23 |   getNumber(&option,"Qué desea hacer?\n1-Cargar arrays\n2-Mostrar 1 estudiante\n3-Mostrar todos los estudiantes\n4-Ordenar por criterio\n5-Salir\n","ERROR,opción incorrecta",1,6,2);
+      |   ^~~~~~~~~
+..\src\ejercicioDeArraysParalelosConEstructuras.c:20:11: warning: unused variable 'alumno' [-Wunused-variable]
+   20 |  ePersona alumno[LEN_ARRAY];
+      |           ^~~~~~
+10:45:42 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+..\src\ejercicioDeArraysParalelosConEstructuras.c: In function 'main':
+..\src\ejercicioDeArraysParalelosConEstructuras.c:20:11: warning: unused variable 'alumno' [-Wunused-variable]
+   20 |  ePersona alumno[LEN_ARRAY];
+      |           ^~~~~~
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+12:28:55 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'optionMenu':
+..\src\utn.c:15:2: warning: implicit declaration of function 'getNumber'; did you mean 'isNumber'? [-Wimplicit-function-declaration]
+   15 |  getNumber(&option,mensaje,mensajeError,min,max,reintentos);
+      |  ^~~~~~~~~
+      |  isNumber
+..\src\utn.c: At top level:
+..\src\utn.c:21:1: error: expected identifier or '(' before '{' token
+   21 | {
+      | ^
+..\src\utn.c:13:12: warning: 'optionMenu' defined but not used [-Wunused-function]
+   13 | static int optionMenu(char* mensaje, char* mensajeError, int min, int max, int reintentos){
+      |            ^~~~~~~~~~
+12:30:15 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'optionMenu':
+..\src\utn.c:15:2: warning: implicit declaration of function 'getNumber'; did you mean 'isNumber'? [-Wimplicit-function-declaration]
+   15 |  getNumber(&option,mensaje,mensajeError,min,max,reintentos);
+      |  ^~~~~~~~~
+      |  isNumber
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+..\src\ejercicioDeArraysParalelosConEstructuras.c: In function 'main':
+..\src\ejercicioDeArraysParalelosConEstructuras.c:19:11: warning: unused variable 'alumno' [-Wunused-variable]
+   19 |  ePersona alumno[LEN_ARRAY];
+      |           ^~~~~~
+..\src\ejercicioDeArraysParalelosConEstructuras.c:18:6: warning: unused variable 'i' [-Wunused-variable]
+   18 |  int i;
+      |      ^
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+12:32:38 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+..\src\ejercicioDeArraysParalelosConEstructuras.c: In function 'main':
+..\src\ejercicioDeArraysParalelosConEstructuras.c:21:2: warning: implicit declaration of function 'menu' [-Wimplicit-function-declaration]
+   21 |  menu();
+      |  ^~~~
+..\src\ejercicioDeArraysParalelosConEstructuras.c:19:11: warning: unused variable 'alumno' [-Wunused-variable]
+   19 |  ePersona alumno[LEN_ARRAY];
+      |           ^~~~~~
+..\src\ejercicioDeArraysParalelosConEstructuras.c:18:6: warning: unused variable 'i' [-Wunused-variable]
+   18 |  int i;
+      |      ^
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+12:54:17 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+..\src\ejercicioDeArraysParalelosConEstructuras.c: In function 'main':
+..\src\ejercicioDeArraysParalelosConEstructuras.c:20:11: warning: unused variable 'alumno' [-Wunused-variable]
+   20 |  ePersona alumno[LEN_ARRAY];
+      |           ^~~~~~
+..\src\ejercicioDeArraysParalelosConEstructuras.c:18:6: warning: unused variable 'i' [-Wunused-variable]
+   18 |  int i;
+      |      ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'optionMenu':
+..\src\utn.c:15:2: warning: implicit declaration of function 'getNumber'; did you mean 'isNumber'? [-Wimplicit-function-declaration]
+   15 |  getNumber(&option,mensaje,mensajeError,min,max,reintentos);
+      |  ^~~~~~~~~
+      |  isNumber
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+13:01:54 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+..\src\ejercicioDeArraysParalelosConEstructuras.c: In function 'main':
+..\src\ejercicioDeArraysParalelosConEstructuras.c:19:11: warning: unused variable 'alumno' [-Wunused-variable]
+   19 |  ePersona alumno[LEN_ARRAY];
+      |           ^~~~~~
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+15:41:12 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+..\src\ejercicioDeArraysParalelosConEstructuras.c: In function 'main':
+..\src\ejercicioDeArraysParalelosConEstructuras.c:21:2: error: too many arguments to function 'menu'
+   21 |  menu(option,alumno);
+      |  ^~~~
+In file included from ..\src\ejercicioDeArraysParalelosConEstructuras.c:14:
+..\src\utn.h:26:6: note: declared here
+   26 | void menu(int option);
+      |      ^~~~
+15:41:57 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'optionMenu':
+..\src\utn.c:16:2: warning: implicit declaration of function 'getNumber'; did you mean 'isNumber'? [-Wimplicit-function-declaration]
+   16 |  getNumber(&option,mensaje,mensajeError,min,max,reintentos);
+      |  ^~~~~~~~~
+      |  isNumber
+..\src\utn.c: At top level:
+..\src\utn.c:21:23: error: unknown type name 'ePersona'
+   21 | void menu(int option, ePersona* pAlumno)
+      |                       ^~~~~~~~
+15:42:00 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'optionMenu':
+..\src\utn.c:16:2: warning: implicit declaration of function 'getNumber'; did you mean 'isNumber'? [-Wimplicit-function-declaration]
+   16 |  getNumber(&option,mensaje,mensajeError,min,max,reintentos);
+      |  ^~~~~~~~~
+      |  isNumber
+..\src\utn.c: At top level:
+..\src\utn.c:21:23: error: unknown type name 'ePersona'
+   21 | void menu(int option, ePersona* pAlumno)
+      |                       ^~~~~~~~
+15:42:28 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'optionMenu':
+..\src\utn.c:16:2: warning: implicit declaration of function 'getNumber'; did you mean 'isNumber'? [-Wimplicit-function-declaration]
+   16 |  getNumber(&option,mensaje,mensajeError,min,max,reintentos);
+      |  ^~~~~~~~~
+      |  isNumber
+..\src\utn.c: At top level:
+..\src\utn.c:21:23: error: unknown type name 'ePersona'
+   21 | void menu(int option, ePersona* pAlumno)
+      |                       ^~~~~~~~
+15:42:46 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'optionMenu':
+..\src\utn.c:17:2: warning: implicit declaration of function 'getNumber'; did you mean 'isNumber'? [-Wimplicit-function-declaration]
+   17 |  getNumber(&option,mensaje,mensajeError,min,max,reintentos);
+      |  ^~~~~~~~~
+      |  isNumber
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+In file included from ..\src\persona.c:9:
+..\src\utn.h:26:23: error: unknown type name 'ePersona'
+   26 | void menu(int option, ePersona* pAlumno);
+      |                       ^~~~~~~~
+15:42:48 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+In file included from ..\src\persona.c:9:
+..\src\utn.h:26:23: error: unknown type name 'ePersona'
+   26 | void menu(int option, ePersona* pAlumno);
+      |                       ^~~~~~~~
+15:43:09 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+In file included from ..\src\persona.c:10:
+..\src\persona.h:23:2: error: conflicting types for 'ePersona'
+   23 | }ePersona;
+      |  ^~~~~~~~
+In file included from ..\src\utn.h:12,
+                 from ..\src\persona.c:9:
+..\src\persona.h:23:2: note: previous declaration of 'ePersona' was here
+   23 | }ePersona;
+      |  ^~~~~~~~
+15:43:16 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+In file included from ..\src\persona.c:10:
+..\src\persona.h:23:2: error: conflicting types for 'ePersona'
+   23 | }ePersona;
+      |  ^~~~~~~~
+In file included from ..\src\utn.h:12,
+                 from ..\src\persona.c:9:
+..\src\persona.h:23:2: note: previous declaration of 'ePersona' was here
+   23 | }ePersona;
+      |  ^~~~~~~~
+15:43:50 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+In file included from ..\src\persona.c:9:
+..\src\utn.h:26:23: error: unknown type name 'ePersona'
+   26 | void menu(int option, ePersona* pAlumno);
+      |                       ^~~~~~~~
+15:44:51 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'optionMenu':
+..\src\utn.c:17:2: warning: implicit declaration of function 'getNumber'; did you mean 'isNumber'? [-Wimplicit-function-declaration]
+   17 |  getNumber(&option,mensaje,mensajeError,min,max,reintentos);
+      |  ^~~~~~~~~
+      |  isNumber
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+15:47:49 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'optionMenu':
+..\src\utn.c:17:11: warning: passing argument 1 of 'isNumber' from incompatible pointer type [-Wincompatible-pointer-types]
+   17 |  isNumber(&option,mensaje,mensajeError,min,max,reintentos);
+      |           ^~~~~~~
+      |           |
+      |           int *
+In file included from ..\src\utn.c:10:
+..\src\validation.h:25:21: note: expected 'char *' but argument is of type 'int *'
+   25 | int isNumber (char* cadena);
+      |               ~~~~~~^~~~~~
+..\src\utn.c:17:2: error: too many arguments to function 'isNumber'
+   17 |  isNumber(&option,mensaje,mensajeError,min,max,reintentos);
+      |  ^~~~~~~~
+In file included from ..\src\utn.c:10:
+..\src\validation.h:25:5: note: declared here
+   25 | int isNumber (char* cadena);
+      |     ^~~~~~~~
 ..\src\utn.c: In function 'cargarArrayInt':
-..\src\utn.c:83:6: warning: implicit declaration of function 'getNumber'; did you mean 'isNumber'? [-Wimplicit-function-declaration]
-   83 |   if(getNumber(&buffer,"Ingrese un número\n","ERROR\n",1,115,2))
+..\src\utn.c:94:6: warning: implicit declaration of function 'getNumber'; did you mean 'isNumber'? [-Wimplicit-function-declaration]
+   94 |   if(getNumber(&buffer,"Ingrese un número\n","ERROR\n",1,115,2))
       |      ^~~~~~~~~
       |      isNumber
-..\src\utn.c: In function 'getString':
-..\src\utn.c:310:15: error: 'MAX_ARRAY_CHAR' undeclared (first use in this function)
-  310 |  char buffer [MAX_ARRAY_CHAR];
-      |               ^~~~~~~~~~~~~~
-..\src\utn.c:310:15: note: each undeclared identifier is reported only once for each function it appears in
-..\src\utn.c:310:7: warning: unused variable 'buffer' [-Wunused-variable]
-  310 |  char buffer [MAX_ARRAY_CHAR];
-      |       ^~~~~~
-15:38:03 **** Incremental Build of configuration Debug for project claseStruct ****
+15:48:04 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
 Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'menu':
+..\src\persona.c:18:4: error: too few arguments to function 'cargarArrayInt'
+   18 |    cargarArrayInt()
+      |    ^~~~~~~~~~~~~~
+In file included from ..\src\persona.c:9:
+..\src\utn.h:134:5: note: declared here
+  134 | int cargarArrayInt (int* pArray,int size,int indice);
+      |     ^~~~~~~~~~~~~~
+..\src\persona.c:18:20: error: expected ';' before 'break'
+   18 |    cargarArrayInt()
+      |                    ^
+      |                    ;
+   19 |    break;
+      |    ~~~~~            
+15:49:24 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'optionMenu':
+..\src\utn.c:17:2: warning: implicit declaration of function 'getNumber'; did you mean 'isNumber'? [-Wimplicit-function-declaration]
+   17 |  getNumber(&option,mensaje,mensajeError,min,max,reintentos);
+      |  ^~~~~~~~~
+      |  isNumber
+..\src\utn.c: In function 'cargarArrayInt':
+..\src\utn.c:96:21: error: incompatible types when assigning to type 'ePersona' {aka 'struct <anonymous>'} from type 'int'
+   96 |    pArray[indice] = buffer;
+      |                     ^~~~~~
+15:51:27 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'optionMenu':
+..\src\utn.c:17:2: warning: implicit declaration of function 'getNumber'; did you mean 'isNumber'? [-Wimplicit-function-declaration]
+   17 |  getNumber(&option,mensaje,mensajeError,min,max,reintentos);
+      |  ^~~~~~~~~
+      |  isNumber
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+In file included from ..\src\persona.c:9:
+..\src\utn.h:134:21: error: unknown type name 'ePersona'
+  134 | int cargarArrayInt (ePersona* pArray,int size,int indice);
+      |                     ^~~~~~~~
+..\src\persona.c: In function 'menu':
+..\src\persona.c:18:4: warning: implicit declaration of function 'cargarArrayInt' [-Wimplicit-function-declaration]
+   18 |    cargarArrayInt()
+      |    ^~~~~~~~~~~~~~
+..\src\persona.c:18:20: error: expected ';' before 'break'
+   18 |    cargarArrayInt()
+      |                    ^
+      |                    ;
+   19 |    break;
+      |    ~~~~~            
+15:54:22 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'optionMenu':
+..\src\utn.c:17:2: warning: implicit declaration of function 'getNumber'; did you mean 'isNumber'? [-Wimplicit-function-declaration]
+   17 |  getNumber(&option,mensaje,mensajeError,min,max,reintentos);
+      |  ^~~~~~~~~
+      |  isNumber
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'cargarAlumno':
+..\src\persona.c:41:10: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   41 |    pArray[i].edad = buffer;
+      |          ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+16:00:28 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'cargarAlumno':
+..\src\persona.c:47:4: warning: implicit declaration of function 'strcpy' [-Wimplicit-function-declaration]
+   47 |    strcpy(pArray[i].apellido,bufferApellido);
+      |    ^~~~~~
+..\src\persona.c:47:4: warning: incompatible implicit declaration of built-in function 'strcpy'
+..\src\persona.c:11:1: note: include '<string.h>' or provide a declaration of 'strcpy'
+   10 | #include "persona.h"
+  +++ |+#include <string.h>
+   11 | 
+..\src\persona.c:50:23: warning: passing argument 1 of 'getNumber' makes pointer from integer without a cast [-Wint-conversion]
+   50 |    getNumber(pArray[i].edad,"Ingrese la edad","ERROR",1,115,2);
+      |              ~~~~~~~~~^~~~~
+      |                       |
+      |                       int
+In file included from ..\src\persona.c:9:
+..\src\utn.h:45:21: note: expected 'int *' but argument is of type 'int'
+   45 | int getNumber (int* pResultado, char* mensaje, char* mensajeError, int min, int max, int reintentos);
+      |                ~~~~~^~~~~~~~~~
+..\src\persona.c:39:8: warning: unused variable 'bufferPromedio' [-Wunused-variable]
+   39 |  float bufferPromedio;
+      |        ^~~~~~~~~~~~~~
+..\src\persona.c:38:6: warning: unused variable 'bufferNota2' [-Wunused-variable]
+   38 |  int bufferNota2;
+      |      ^~~~~~~~~~~
+..\src\persona.c:37:6: warning: unused variable 'bufferNota1' [-Wunused-variable]
+   37 |  int bufferNota1;
+      |      ^~~~~~~~~~~
+..\src\persona.c:36:6: warning: unused variable 'bufferEdad' [-Wunused-variable]
+   36 |  int bufferEdad;
+      |      ^~~~~~~~~~
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+16:01:03 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'cargarAlumno':
+..\src\persona.c:47:4: warning: implicit declaration of function 'strcpy' [-Wimplicit-function-declaration]
+   47 |    strcpy(pArray[i].apellido,bufferApellido);
+      |    ^~~~~~
+..\src\persona.c:47:4: warning: incompatible implicit declaration of built-in function 'strcpy'
+..\src\persona.c:11:1: note: include '<string.h>' or provide a declaration of 'strcpy'
+   10 | #include "persona.h"
+  +++ |+#include <string.h>
+   11 | 
+..\src\persona.c:39:8: warning: unused variable 'bufferPromedio' [-Wunused-variable]
+   39 |  float bufferPromedio;
+      |        ^~~~~~~~~~~~~~
+..\src\persona.c:38:6: warning: unused variable 'bufferNota2' [-Wunused-variable]
+   38 |  int bufferNota2;
+      |      ^~~~~~~~~~~
+..\src\persona.c:37:6: warning: unused variable 'bufferNota1' [-Wunused-variable]
+   37 |  int bufferNota1;
+      |      ^~~~~~~~~~~
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+16:01:28 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'cargarAlumno':
+..\src\persona.c:39:8: warning: unused variable 'bufferPromedio' [-Wunused-variable]
+   39 |  float bufferPromedio;
+      |        ^~~~~~~~~~~~~~
+..\src\persona.c:38:6: warning: unused variable 'bufferNota2' [-Wunused-variable]
+   38 |  int bufferNota2;
+      |      ^~~~~~~~~~~
+..\src\persona.c:37:6: warning: unused variable 'bufferNota1' [-Wunused-variable]
+   37 |  int bufferNota1;
+      |      ^~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'optionMenu':
+..\src\utn.c:17:2: warning: implicit declaration of function 'getNumber'; did you mean 'isNumber'? [-Wimplicit-function-declaration]
+   17 |  getNumber(&option,mensaje,mensajeError,min,max,reintentos);
+      |  ^~~~~~~~~
+      |  isNumber
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+16:02:38 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'menu':
+..\src\persona.c:18:4: warning: implicit declaration of function 'cargarAlumno' [-Wimplicit-function-declaration]
+   18 |    cargarAlumno(pAlumno,LEN_ARRAY);
+      |    ^~~~~~~~~~~~
+..\src\persona.c: In function 'cargarAlumno':
+..\src\persona.c:40:8: warning: unused variable 'bufferPromedio' [-Wunused-variable]
+   40 |  float bufferPromedio;
+      |        ^~~~~~~~~~~~~~
+..\src\persona.c:39:6: warning: unused variable 'bufferNota2' [-Wunused-variable]
+   39 |  int bufferNota2;
+      |      ^~~~~~~~~~~
+..\src\persona.c:38:6: warning: unused variable 'bufferNota1' [-Wunused-variable]
+   38 |  int bufferNota1;
+      |      ^~~~~~~~~~~
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+16:03:12 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'menu':
+..\src\persona.c:18:4: warning: implicit declaration of function 'cargarAlumno' [-Wimplicit-function-declaration]
+   18 |    cargarAlumno(pAlumno,LEN_ARRAY);
+      |    ^~~~~~~~~~~~
+..\src\persona.c: In function 'cargarAlumno':
+..\src\persona.c:40:8: warning: unused variable 'bufferPromedio' [-Wunused-variable]
+   40 |  float bufferPromedio;
+      |        ^~~~~~~~~~~~~~
+..\src\persona.c:39:6: warning: unused variable 'bufferNota2' [-Wunused-variable]
+   39 |  int bufferNota2;
+      |      ^~~~~~~~~~~
+..\src\persona.c:38:6: warning: unused variable 'bufferNota1' [-Wunused-variable]
+   38 |  int bufferNota1;
+      |      ^~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'optionMenu':
+..\src\utn.c:17:2: warning: implicit declaration of function 'getNumber'; did you mean 'isNumber'? [-Wimplicit-function-declaration]
+   17 |  getNumber(&option,mensaje,mensajeError,min,max,reintentos);
+      |  ^~~~~~~~~
+      |  isNumber
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+16:03:23 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'optionMenu':
+..\src\utn.c:17:2: warning: implicit declaration of function 'getNumber'; did you mean 'isNumber'? [-Wimplicit-function-declaration]
+   17 |  getNumber(&option,mensaje,mensajeError,min,max,reintentos);
+      |  ^~~~~~~~~
+      |  isNumber
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'cargarAlumno':
+..\src\persona.c:40:8: warning: unused variable 'bufferPromedio' [-Wunused-variable]
+   40 |  float bufferPromedio;
+      |        ^~~~~~~~~~~~~~
+..\src\persona.c:39:6: warning: unused variable 'bufferNota2' [-Wunused-variable]
+   39 |  int bufferNota2;
+      |      ^~~~~~~~~~~
+..\src\persona.c:38:6: warning: unused variable 'bufferNota1' [-Wunused-variable]
+   38 |  int bufferNota1;
+      |      ^~~~~~~~~~~
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+16:06:40 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+01:04:50 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'optionMenu':
+..\src\utn.c:17:2: warning: implicit declaration of function 'getNumber'; did you mean 'isNumber'? [-Wimplicit-function-declaration]
+   17 |  getNumber(&option,mensaje,mensajeError,min,max,reintentos);
+      |  ^~~~~~~~~
+      |  isNumber
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+01:05:24 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+01:06:03 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+..\src\utn.c: In function 'optionMenu':
+..\src\utn.c:17:2: warning: implicit declaration of function 'getNumber'; did you mean 'isNumber'? [-Wimplicit-function-declaration]
+   17 |  getNumber(&option,mensaje,mensajeError,min,max,reintentos);
+      |  ^~~~~~~~~
+      |  isNumber
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validation.o" "..\\src\\validation.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-..\src\utn.c: In function 'cargarArrayInt':
-..\src\utn.c:83:6: warning: implicit declaration of function 'getNumber'; did you mean 'isNumber'? [-Wimplicit-function-declaration]
-   83 |   if(getNumber(&buffer,"Ingrese un número\n","ERROR\n",1,115,2))
-      |      ^~~~~~~~~
-      |      isNumber
-..\src\utn.c: In function 'getString':
-..\src\utn.c:291:15: error: 'MAX_ARRAY_CHAR' undeclared (first use in this function)
-  291 |  char buffer [MAX_ARRAY_CHAR];
-      |               ^~~~~~~~~~~~~~
-..\src\utn.c:291:15: note: each undeclared identifier is reported only once for each function it appears in
-..\src\utn.c:291:7: warning: unused variable 'buffer' [-Wunused-variable]
-  291 |  char buffer [MAX_ARRAY_CHAR];
-      |       ^~~~~~
-15:38:59 **** Incremental Build of configuration Debug for project claseStruct ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+01:10:13 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-..\src\utn.c: In function 'cargarArrayInt':
-..\src\utn.c:83:6: warning: implicit declaration of function 'getNumber'; did you mean 'isNumber'? [-Wimplicit-function-declaration]
-   83 |   if(getNumber(&buffer,"Ingrese un número\n","ERROR\n",1,115,2))
-      |      ^~~~~~~~~
-      |      isNumber
-gcc -o claseStruct "src\\claseStruct.o" "src\\utn.o" "src\\validation.o" 
-15:39:23 **** Incremental Build of configuration Debug for project claseStruct ****
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+01:15:17 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+01:19:04 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+01:19:57 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+01:22:57 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-..\src\utn.c: In function 'cargarArrayInt':
-..\src\utn.c:83:6: warning: implicit declaration of function 'getNumber'; did you mean 'isNumber'? [-Wimplicit-function-declaration]
-   83 |   if(getNumber(&buffer,"Ingrese un número\n","ERROR\n",1,115,2))
-      |      ^~~~~~~~~
-      |      isNumber
-gcc -o claseStruct "src\\claseStruct.o" "src\\utn.o" "src\\validation.o" 
-15:40:52 **** Incremental Build of configuration Debug for project claseStruct ****
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+01:23:51 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
 Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-..\src\utn.c: In function 'cargarArrayInt':
-..\src\utn.c:82:6: warning: implicit declaration of function 'getNumber'; did you mean 'isNumber'? [-Wimplicit-function-declaration]
-   82 |   if(getNumber(&buffer,"Ingrese un número\n","ERROR\n",1,115,2))
-      |      ^~~~~~~~~
-      |      isNumber
-gcc -o claseStruct "src\\claseStruct.o" "src\\utn.o" "src\\validation.o" 
-15:42:06 **** Incremental Build of configuration Debug for project claseStruct ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validation.o" "..\\src\\validation.c" 
-gcc -o claseStruct "src\\claseStruct.o" "src\\utn.o" "src\\validation.o" 
-Info: Nothing to build for claseStruct
-15:43:27 **** Incremental Build of configuration Debug for project claseStruct ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validation.o" "..\\src\\validation.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseStruct.o" "..\\src\\claseStruct.c" 
-gcc -o claseStruct "src\\claseStruct.o" "src\\utn.o" "src\\validation.o" 
-Info: Nothing to build for claseStruct
-15:45:36 **** Incremental Build of configuration Debug for project claseStruct ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseStruct.o" "..\\src\\claseStruct.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-..\src\utn.c: In function 'cargarArrayInt':
-..\src\utn.c:82:6: warning: implicit declaration of function 'getNumber'; did you mean 'isNumber'? [-Wimplicit-function-declaration]
-   82 |   if(getNumber(&buffer,"Ingrese un número\n","ERROR\n",1,115,2))
-      |      ^~~~~~~~~
-      |      isNumber
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validation.o" "..\\src\\validation.c" 
-..\src\validation.c: In function 'getInt':
-..\src\validation.c:65:14: error: 'LEN_ARRAY' undeclared (first use in this function)
-   65 |  char buffer[LEN_ARRAY];
-      |              ^~~~~~~~~
-..\src\validation.c:65:14: note: each undeclared identifier is reported only once for each function it appears in
-..\src\validation.c:65:7: warning: unused variable 'buffer' [-Wunused-variable]
-   65 |  char buffer[LEN_ARRAY];
-      |       ^~~~~~
-..\src\validation.c: In function 'getFloat':
-..\src\validation.c:98:14: error: 'LEN_ARRAY' undeclared (first use in this function)
-   98 |  char buffer[LEN_ARRAY];
-      |              ^~~~~~~~~
-..\src\validation.c:98:7: warning: unused variable 'buffer' [-Wunused-variable]
-   98 |  char buffer[LEN_ARRAY];
-      |       ^~~~~~
-15:47:13 **** Incremental Build of configuration Debug for project claseStruct ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseStruct.o" "..\\src\\claseStruct.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validation.o" "..\\src\\validation.c" 
-gcc -o claseStruct "src\\claseStruct.o" "src\\utn.o" "src\\validation.o" 
-Info: Nothing to build for claseStruct
-15:48:14 **** Incremental Build of configuration Debug for project claseStruct ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseStruct.o" "..\\src\\claseStruct.c" 
-gcc -o claseStruct "src\\claseStruct.o" "src\\utn.o" "src\\validation.o" 
-c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file claseStruct.exe: Permission denied
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file ejercicioDeArraysParalelosConEstructuras.exe: Permission denied
 collect2.exe: error: ld returned 1 exit status
-15:48:16 **** Incremental Build of configuration Debug for project claseStruct ****
+01:23:54 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
 Info: Internal Builder is used for build
-gcc -o claseStruct "src\\claseStruct.o" "src\\utn.o" "src\\validation.o" 
-Info: Nothing to build for claseStruct
-15:50:30 **** Incremental Build of configuration Debug for project claseStruct ****
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+01:24:24 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validation.o" "..\\src\\validation.c" 
-..\src\validation.c: In function 'getInt':
-..\src\validation.c:65:14: error: 'LEN_ARRAY' undeclared (first use in this function)
-   65 |  char buffer[LEN_ARRAY];
-      |              ^~~~~~~~~
-..\src\validation.c:65:14: note: each undeclared identifier is reported only once for each function it appears in
-..\src\validation.c:65:7: warning: unused variable 'buffer' [-Wunused-variable]
-   65 |  char buffer[LEN_ARRAY];
-      |       ^~~~~~
-..\src\validation.c: In function 'getFloat':
-..\src\validation.c:98:14: error: 'LEN_ARRAY' undeclared (first use in this function)
-   98 |  char buffer[LEN_ARRAY];
-      |              ^~~~~~~~~
-..\src\validation.c:98:7: warning: unused variable 'buffer' [-Wunused-variable]
-   98 |  char buffer[LEN_ARRAY];
-      |       ^~~~~~
-15:51:07 **** Incremental Build of configuration Debug for project claseStruct ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+01:25:28 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
 Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+01:27:02 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-..\src\utn.c: In function 'cargarArrayInt':
-..\src\utn.c:82:6: warning: implicit declaration of function 'getNumber'; did you mean 'isNumber'? [-Wimplicit-function-declaration]
-   82 |   if(getNumber(&buffer,"Ingrese un número\n","ERROR\n",1,115,2))
-      |      ^~~~~~~~~
-      |      isNumber
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\claseStruct.o" "..\\src\\claseStruct.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validation.o" "..\\src\\validation.c" 
-gcc -o claseStruct "src\\claseStruct.o" "src\\utn.o" "src\\validation.o" 
-c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file claseStruct.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-15:51:11 **** Incremental Build of configuration Debug for project claseStruct ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+..\src\ejercicioDeArraysParalelosConEstructuras.c: In function 'main':
+..\src\ejercicioDeArraysParalelosConEstructuras.c:23:8: warning: passing argument 1 of 'menu' makes pointer from integer without a cast [-Wint-conversion]
+   23 |   menu(option,alumno);
+      |        ^~~~~~
+      |        |
+      |        int
+In file included from ..\src\ejercicioDeArraysParalelosConEstructuras.c:13:
+..\src\persona.h:28:21: note: expected 'ePersona *' {aka 'struct <anonymous> *'} but argument is of type 'int'
+   28 | void menu(ePersona* pAlumno,int option);
+      |           ~~~~~~~~~~^~~~~~~
+..\src\ejercicioDeArraysParalelosConEstructuras.c:23:15: warning: passing argument 2 of 'menu' makes integer from pointer without a cast [-Wint-conversion]
+   23 |   menu(option,alumno);
+      |               ^~~~~~
+      |               |
+      |               ePersona * {aka struct <anonymous> *}
+In file included from ..\src\ejercicioDeArraysParalelosConEstructuras.c:13:
+..\src\persona.h:28:33: note: expected 'int' but argument is of type 'ePersona *' {aka 'struct <anonymous> *'}
+   28 | void menu(ePersona* pAlumno,int option);
+      |                             ~~~~^~~~~~
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+01:27:13 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
 Info: Internal Builder is used for build
-gcc -o claseStruct "src\\claseStruct.o" "src\\utn.o" "src\\validation.o" 
-Info: Nothing to build for claseStruct
-Info: Nothing to build for claseStruct
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+01:27:54 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+01:29:38 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+01:32:32 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file ejercicioDeArraysParalelosConEstructuras.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:32:38 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+01:34:03 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+01:36:17 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+..\src\ejercicioDeArraysParalelosConEstructuras.c: In function 'main':
+..\src\ejercicioDeArraysParalelosConEstructuras.c:19:6: warning: unused variable 'i' [-Wunused-variable]
+   19 |  int i;
+      |      ^
+..\src\ejercicioDeArraysParalelosConEstructuras.c:22:5: warning: 'option' is used uninitialized in this function [-Wuninitialized]
+   22 |  if(menu(alumno,option)==0){
+      |     ^~~~~~~~~~~~~~~~~~~
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+01:36:26 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+..\src\ejercicioDeArraysParalelosConEstructuras.c: In function 'main':
+..\src\ejercicioDeArraysParalelosConEstructuras.c:21:5: warning: 'option' is used uninitialized in this function [-Wuninitialized]
+   21 |  if(menu(alumno,option)==0){
+      |     ^~~~~~~~~~~~~~~~~~~
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+01:36:48 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+01:37:17 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+01:39:00 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+01:39:28 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+01:40:21 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+01:42:12 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'cargarAlumno':
+..\src\persona.c:54:4: warning: implicit declaration of function 'stricpy'; did you mean 'strncpy'? [-Wimplicit-function-declaration]
+   54 |    stricpy(pAlumno[i].sexo,bufferSexo);
+      |    ^~~~~~~
+      |    strncpy
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\persona.o: in function `cargarAlumno':
+C:\Users\pocho\eclipse-workspace\ejercicios_utn\ejercicioDeArraysParalelosConEstructuras\Debug/../src/persona.c:54: undefined reference to `stricpy'
+collect2.exe: error: ld returned 1 exit status
+01:42:43 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+02:17:47 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+02:18:44 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+02:19:40 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+02:20:49 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validation.o" "..\\src\\validation.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+02:22:42 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+02:24:23 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+02:26:24 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validation.o" "..\\src\\validation.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+02:31:07 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+02:32:45 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'cargarAlumno':
+..\src\persona.c:52:25: warning: operation on 'i' may be undefined [-Wsequence-point]
+   52 |    pAlumno[i].legajo = i++;
+      |                        ~^~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validation.o" "..\\src\\validation.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+02:33:02 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+02:35:21 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file ejercicioDeArraysParalelosConEstructuras.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:35:22 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+02:35:58 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+02:37:03 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file ejercicioDeArraysParalelosConEstructuras.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:37:04 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+02:37:43 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file ejercicioDeArraysParalelosConEstructuras.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:37:45 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file ejercicioDeArraysParalelosConEstructuras.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:37:47 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+02:39:17 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+02:40:14 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+02:41:30 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+02:43:08 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'printAlumnos':
+..\src\persona.c:92:105: error: 'indice' undeclared (first use in this function)
+   92 |    printf("Legajo:  %d  Apellido:  %s  Sexo:  %s  1°Nota:  %d  2°Nota:  %d  Promedio:  %.2f \n",pAlumno[indice].legajo,pAlumno[indice].apellido,pAlumno[indice].sexo,pAlumno[indice].nota1,pAlumno[indice].nota2,pAlumno[indice].promedio);
+      |                                                                                                         ^~~~~~
+..\src\persona.c:92:105: note: each undeclared identifier is reported only once for each function it appears in
+02:44:11 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'printAlumnos':
+..\src\persona.c:94:105: error: 'indice' undeclared (first use in this function)
+   94 |    printf("Legajo:  %d  Apellido:  %s  Sexo:  %s  1°Nota:  %d  2°Nota:  %d  Promedio:  %.2f \n",pAlumno[indice].legajo,pAlumno[indice].apellido,pAlumno[indice].sexo,pAlumno[indice].nota1,pAlumno[indice].nota2,pAlumno[indice].promedio);
+      |                                                                                                         ^~~~~~
+..\src\persona.c:94:105: note: each undeclared identifier is reported only once for each function it appears in
+02:44:34 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+02:45:15 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+02:46:31 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+02:47:38 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file ejercicioDeArraysParalelosConEstructuras.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:47:40 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+02:50:19 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+02:51:39 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file ejercicioDeArraysParalelosConEstructuras.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:51:41 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+02:52:37 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+02:53:52 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+03:06:43 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'menu':
+..\src\persona.c:31:106: warning: passing argument 2 of 'optionMenu' makes pointer from integer without a cast [-Wint-conversion]
+   31 |    optionMenu("1- Ordenar por apellido\n2- Ordenar por promedio\n3- Ordenar por legajo\n4- Volver atras",1,4,2);
+      |                                                                                                          ^
+      |                                                                                                          |
+      |                                                                                                          int
+In file included from ..\src\persona.c:9:
+..\src\utn.h:22:37: note: expected 'char *' but argument is of type 'int'
+   22 | int optionMenu(char* mensaje, char* mensajeError, int min, int max, int reintentos);
+      |                               ~~~~~~^~~~~~~~~~~~
+..\src\persona.c:31:4: error: too few arguments to function 'optionMenu'
+   31 |    optionMenu("1- Ordenar por apellido\n2- Ordenar por promedio\n3- Ordenar por legajo\n4- Volver atras",1,4,2);
+      |    ^~~~~~~~~~
+In file included from ..\src\persona.c:9:
+..\src\utn.h:22:5: note: declared here
+   22 | int optionMenu(char* mensaje, char* mensajeError, int min, int max, int reintentos);
+      |     ^~~~~~~~~~
+03:09:23 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'menu':
+..\src\persona.c:31:146: warning: passing argument 2 of 'optionMenu' makes pointer from integer without a cast [-Wint-conversion]
+   31 |    oredenarPorCriterio (pAlumno, LEN_ARRAY,optionMenu("1- Ordenar por apellido\n2- Ordenar por promedio\n3- Ordenar por legajo\n4- Volver atras",1,4,2));
+      |                                                                                                                                                  ^
+      |                                                                                                                                                  |
+      |                                                                                                                                                  int
+In file included from ..\src\persona.c:9:
+..\src\utn.h:22:37: note: expected 'char *' but argument is of type 'int'
+   22 | int optionMenu(char* mensaje, char* mensajeError, int min, int max, int reintentos);
+      |                               ~~~~~~^~~~~~~~~~~~
+..\src\persona.c:31:44: error: too few arguments to function 'optionMenu'
+   31 |    oredenarPorCriterio (pAlumno, LEN_ARRAY,optionMenu("1- Ordenar por apellido\n2- Ordenar por promedio\n3- Ordenar por legajo\n4- Volver atras",1,4,2));
+      |                                            ^~~~~~~~~~
+In file included from ..\src\persona.c:9:
+..\src\utn.h:22:5: note: declared here
+   22 | int optionMenu(char* mensaje, char* mensajeError, int min, int max, int reintentos);
+      |     ^~~~~~~~~~
+03:10:12 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'menu':
+..\src\persona.c:32:116: warning: passing argument 2 of 'optionMenu' makes pointer from integer without a cast [-Wint-conversion]
+   32 |    option4 = optionMenu("1- Ordenar por apellido\n2- Ordenar por promedio\n3- Ordenar por legajo\n4- Volver atras",1,4,2)
+      |                                                                                                                    ^
+      |                                                                                                                    |
+      |                                                                                                                    int
+In file included from ..\src\persona.c:9:
+..\src\utn.h:22:37: note: expected 'char *' but argument is of type 'int'
+   22 | int optionMenu(char* mensaje, char* mensajeError, int min, int max, int reintentos);
+      |                               ~~~~~~^~~~~~~~~~~~
+..\src\persona.c:32:14: error: too few arguments to function 'optionMenu'
+   32 |    option4 = optionMenu("1- Ordenar por apellido\n2- Ordenar por promedio\n3- Ordenar por legajo\n4- Volver atras",1,4,2)
+      |              ^~~~~~~~~~
+In file included from ..\src\persona.c:9:
+..\src\utn.h:22:5: note: declared here
+   22 | int optionMenu(char* mensaje, char* mensajeError, int min, int max, int reintentos);
+      |     ^~~~~~~~~~
+..\src\persona.c:32:122: error: expected ';' before 'oredenarPorCriterio'
+   32 |    option4 = optionMenu("1- Ordenar por apellido\n2- Ordenar por promedio\n3- Ordenar por legajo\n4- Volver atras",1,4,2)
+      |                                                                                                                          ^
+      |                                                                                                                          ;
+   33 |    oredenarPorCriterio (pAlumno,LEN_ARRAY,option4);
+      |    ~~~~~~~~~~~~~~~~~~~                                                                                                    
+..\src\persona.c:15:6: warning: variable 'option4' set but not used [-Wunused-but-set-variable]
+   15 |  int option4;
+      |      ^~~~~~~
+03:10:25 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'menu':
+..\src\persona.c:32:116: warning: passing argument 2 of 'optionMenu' makes pointer from integer without a cast [-Wint-conversion]
+   32 |    option4 = optionMenu("1- Ordenar por apellido\n2- Ordenar por promedio\n3- Ordenar por legajo\n4- Volver atras",1,4,2);
+      |                                                                                                                    ^
+      |                                                                                                                    |
+      |                                                                                                                    int
+In file included from ..\src\persona.c:9:
+..\src\utn.h:22:37: note: expected 'char *' but argument is of type 'int'
+   22 | int optionMenu(char* mensaje, char* mensajeError, int min, int max, int reintentos);
+      |                               ~~~~~~^~~~~~~~~~~~
+..\src\persona.c:32:14: error: too few arguments to function 'optionMenu'
+   32 |    option4 = optionMenu("1- Ordenar por apellido\n2- Ordenar por promedio\n3- Ordenar por legajo\n4- Volver atras",1,4,2);
+      |              ^~~~~~~~~~
+In file included from ..\src\persona.c:9:
+..\src\utn.h:22:5: note: declared here
+   22 | int optionMenu(char* mensaje, char* mensajeError, int min, int max, int reintentos);
+      |     ^~~~~~~~~~
+03:10:59 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+..\src\persona.c: In function 'oredenarPorCriterio':
+..\src\persona.c:126:19: warning: 'bufferAlumno' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  126 |       pAlumno[i+1]=bufferAlumno;
+      |       ~~~~~~~~~~~~^~~~~~~~~~~~~
+..\src\persona.c:128:17: warning: 'bufferAlumno' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  128 |       pAlumno[i]=bufferAlumno;
+      |       ~~~~~~~~~~^~~~~~~~~~~~~
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+03:12:11 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+03:14:55 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioDeArraysParalelosConEstructuras.o" "..\\src\\ejercicioDeArraysParalelosConEstructuras.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+03:16:15 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+03:18:03 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+03:21:09 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+03:22:33 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+03:23:40 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+03:25:24 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+03:30:04 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+03:31:32 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file ejercicioDeArraysParalelosConEstructuras.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+03:31:34 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
+Info: Nothing to build for ejercicioDeArraysParalelosConEstructuras
+03:34:02 **** Incremental Build of configuration Debug for project ejercicioDeArraysParalelosConEstructuras ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\persona.o" "..\\src\\persona.c" 
+gcc -o ejercicioDeArraysParalelosConEstructuras "src\\ejercicioDeArraysParalelosConEstructuras.o" "src\\persona.o" "src\\utn.o" "src\\validation.o" 
